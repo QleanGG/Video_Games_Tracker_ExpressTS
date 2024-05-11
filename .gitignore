@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Django backup directory (if not used, remove this line)
+django_back/
+
+ormconfig.json
