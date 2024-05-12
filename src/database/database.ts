@@ -1,24 +1,17 @@
 import "reflect-metadata";
-import { create } from 'typeorm';
+import { DataSource } from 'typeorm';
+import path from 'path';
 
-export const connectDatabase = async () => {
-    try {
-        await createConnection({
-            type: "postgres",
-            host: "localhost",
-            port: 5432,
-            username: "your_username",
-            password: "your_password",
-            database: "your_database_name",
-            entities: [
-                __dirname + "/entities/*.ts"
-            ],
-            synchronize: true,  // Consider using migrations in production
-            logging: false
+const configPath = path.join(__dirname, 'ormconfig.json');
+export const AppDataSource = new DataSource(require(configPath));
+
+export const initializeDatabase = () => {
+    return AppDataSource.initialize()
+        .then(() => {
+            console.log("Database connected successfully.");
+        })
+        .catch((error) => {
+            console.error("Failed to connect to the database:", error);
+            throw error;  // Re-throw to handle it in app.ts
         });
-        console.log("Database connected successfully.");
-    } catch (error) {
-        console.error("Database connection failed:", error);
-        process.exit(1);  // Optional: exit application on DB connection failure
-    }
-};
+}
