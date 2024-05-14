@@ -1,0 +1,2452 @@
+[
+    {
+        "title": "Chinatown Detective Agency",
+        "releaseDate": "Apr 7, 2022",
+        "rating": 6.6,
+        "developer": "General Interactive Co.",
+        "publisher": "Humble Games",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Chinatown_Detective_Agency.jpg"
+    },
+    {
+        "title": "Animal Crossing: New Horizons",
+        "releaseDate": "Mar 20, 2020",
+        "rating": 9.0,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Simulation",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Oddworld: Soulstorm",
+        "releaseDate": "Apr 6, 2021",
+        "rating": 6.7,
+        "developer": "Oddworld Inhabitants",
+        "publisher": "Microids",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "MindSeize",
+        "releaseDate": "Feb 7, 2020",
+        "rating": 7.4,
+        "developer": "Kamina Dimension",
+        "publisher": "First Press Games",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/MindSeize.jpg"
+    },
+    {
+        "title": "Mario Party Superstars",
+        "releaseDate": "Oct 29, 2021",
+        "rating": 8.0,
+        "developer": "Nd Cube",
+        "publisher": "Nintendo",
+        "genre": "Party/Minigame",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Mario_Party_Superstars.jpg"
+    },
+    {
+        "title": "Fire Emblem Warriors: Three Hopes",
+        "releaseDate": "Jun 24, 2022",
+        "rating": 8.0,
+        "developer": "Koei Tecmo Games",
+        "publisher": "Nintendo",
+        "genre": "3D",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Life is Strange",
+        "releaseDate": "Feb 1, 2022",
+        "rating": 8.5,
+        "developer": "Feral Interactive",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "PC",
+        "imageUrl": "/public/game_images/Life_is_Strange.jpg"
+    },
+    {
+        "title": "Fight Crab",
+        "releaseDate": "Jul 29, 2020",
+        "rating": 6.0,
+        "developer": "Calappa Games",
+        "publisher": "Nussoft",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Fight_Crab.jpg"
+    },
+    {
+        "title": "Eiyuden Chronicle: Hundred Heroes",
+        "releaseDate": "Apr 21, 2024",
+        "rating": 7.9,
+        "developer": "Rabbit & Bear Studios",
+        "publisher": "505 Games",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "WWE 2K23",
+        "releaseDate": "Mar 14, 2023",
+        "rating": 8.2,
+        "developer": "Visual Concepts",
+        "publisher": "2K Games",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/WWE_2K23.jpg"
+    },
+    {
+        "title": "Dragon Ball Z: Kakarot",
+        "releaseDate": "Jan 17, 2020",
+        "rating": 7.3,
+        "developer": "CyberConnect2",
+        "publisher": "Bandai Namco Games",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Super Monkey Ball: Banana Mania",
+        "releaseDate": "Oct 2, 2021",
+        "rating": 7.6,
+        "developer": "Sega",
+        "publisher": "Sega",
+        "genre": "Compilation",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Prince of Persia: The Lost Crown",
+        "releaseDate": "Jan 15, 2024",
+        "rating": 8.6,
+        "developer": "Ubisoft Montpellier",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Cyber Shadow",
+        "releaseDate": "Jan 26, 2021",
+        "rating": 8.2,
+        "developer": "Aarne",
+        "publisher": "Yacht Club Games",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch, PlayStation 5",
+        "imageUrl": "/public/game_images/Cyber_Shadow.jpg"
+    },
+    {
+        "title": "The Dark Pictures Anthology: Little Hope",
+        "releaseDate": "Oct 30, 2020",
+        "rating": 7.1,
+        "developer": "SuperMassive Games",
+        "publisher": "Bandai Namco Games",
+        "genre": "Third-Person",
+        "platforms": "Nintendo Switch, PC, PlayStation 5",
+        "imageUrl": ""
+    },
+    {
+        "title": "Sable",
+        "releaseDate": "Sep 23, 2021",
+        "rating": 7.6,
+        "developer": "Shed-Works",
+        "publisher": "Raw Fury",
+        "genre": "Adventure",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Sable.jpg"
+    },
+    {
+        "title": "Super Mario Bros. 35",
+        "releaseDate": "Oct 1, 2020",
+        "rating": 7.5,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "2D",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Super_Mario_Bros._35.jpg"
+    },
+    {
+        "title": "Forza Horizon 5",
+        "releaseDate": "Nov 5, 2021",
+        "rating": 9.2,
+        "developer": "PLAYGROUND",
+        "publisher": "Xbox Game Studios",
+        "genre": "Simulation",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Forza_Horizon_5.jpg"
+    },
+    {
+        "title": "Pokemon UNITE",
+        "releaseDate": "Jul 21, 2021",
+        "rating": 7.0,
+        "developer": "TiMi Studios",
+        "publisher": "The Pokemon Company",
+        "genre": "MOBA",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Pokemon_UNITE.jpg"
+    },
+    {
+        "title": "Road 96",
+        "releaseDate": "Aug 16, 2021",
+        "rating": 7.9,
+        "developer": "Digixart Entertainment",
+        "publisher": "Digixart Entertainment",
+        "genre": "First-Person",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Road_96.jpg"
+    },
+    {
+        "title": "Destroy All Humans!",
+        "releaseDate": "Jul 28, 2020",
+        "rating": 7.0,
+        "developer": "Black Forest Games",
+        "publisher": "THQ Nordic",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Destroy_All_Humans!.jpg"
+    },
+    {
+        "title": "FIFA 23",
+        "releaseDate": "Sep 27, 2022",
+        "rating": 7.6,
+        "developer": "EA Canada",
+        "publisher": "Electronic Arts",
+        "genre": "Simulation",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/FIFA_23.jpg"
+    },
+    {
+        "title": "Disc Room",
+        "releaseDate": "Oct 22, 2020",
+        "rating": 8.3,
+        "developer": "Terri",
+        "publisher": "Devolver Digital",
+        "genre": "Puzzle",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Disc_Room.jpg"
+    },
+    {
+        "title": "Tunic",
+        "releaseDate": "Mar 16, 2022",
+        "rating": 8.5,
+        "developer": "Andrew Shouldice",
+        "publisher": "Finji",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Tunic.jpg"
+    },
+    {
+        "title": "I Am Dead",
+        "releaseDate": "Oct 8, 2020",
+        "rating": 7.9,
+        "developer": "Hollow Ponds",
+        "publisher": "Annapurna Interactive",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/I_Am_Dead.jpg"
+    },
+    {
+        "title": "Returnal",
+        "releaseDate": "Apr 30, 2021",
+        "rating": 8.6,
+        "developer": "Housemarque",
+        "publisher": "Sony Interactive Entertainment",
+        "genre": "Third-Person",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Returnal.jpg"
+    },
+    {
+        "title": "Ghostbusters: Spirits Unleashed",
+        "releaseDate": "Oct 18, 2022",
+        "rating": 6.8,
+        "developer": "IllFonic",
+        "publisher": "IllFonic",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "The Forgotten City",
+        "releaseDate": "Jul 28, 2021",
+        "rating": 8.5,
+        "developer": "Modern Storyteller",
+        "publisher": "Ubitus",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Forgotten_City.jpg"
+    },
+    {
+        "title": "Blasphemous 2",
+        "releaseDate": "Aug 24, 2023",
+        "rating": 8.4,
+        "developer": "The Game Kitchen",
+        "publisher": "Team 17",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Blasphemous_2.jpg"
+    },
+    {
+        "title": "Cursed to Golf",
+        "releaseDate": "Aug 18, 2022",
+        "rating": 8.0,
+        "developer": "Chuhai Labs",
+        "publisher": "Thunderful",
+        "genre": "Golf",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Cursed_to_Golf.jpg"
+    },
+    {
+        "title": "The King of Fighters XV",
+        "releaseDate": "Feb 14, 2022",
+        "rating": 7.9,
+        "developer": "SNK Corporation",
+        "publisher": "SNK Corporation",
+        "genre": "2D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/The_King_of_Fighters_XV.jpg"
+    },
+    {
+        "title": "Kirby and the Forgotten Land",
+        "releaseDate": "Mar 25, 2022",
+        "rating": 8.5,
+        "developer": "HAL Labs",
+        "publisher": "Nintendo",
+        "genre": "Platformer",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Kirby_and_the_Forgotten_Land.jpg"
+    },
+    {
+        "title": "Sherlock Holmes: Chapter One",
+        "releaseDate": "Nov 16, 2021",
+        "rating": 6.9,
+        "developer": "Frogwares",
+        "publisher": "Frogwares",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Othercide",
+        "releaseDate": "Jul 27, 2020",
+        "rating": 7.8,
+        "developer": "Lightbulb Crew",
+        "publisher": "Focus Home Interactive",
+        "genre": "Turn-Based",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Othercide.jpg"
+    },
+    {
+        "title": "Unicorn Overlord",
+        "releaseDate": "Mar 8, 2024",
+        "rating": 8.7,
+        "developer": "Vanillaware",
+        "publisher": "Sega",
+        "genre": "Strategy",
+        "platforms": "Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Unicorn_Overlord.jpg"
+    },
+    {
+        "title": "Marvel's Midnight Suns",
+        "releaseDate": "Dec 2, 2022",
+        "rating": 8.3,
+        "developer": "Firaxis Games",
+        "publisher": "2K Games",
+        "genre": "Strategy",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Marvel's_Midnight_Suns.jpg"
+    },
+    {
+        "title": "Princess Peach: Showtime!",
+        "releaseDate": "Mar 22, 2024",
+        "rating": 7.4,
+        "developer": "Good-Feel",
+        "publisher": "Nintendo",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Evil Dead: The Game",
+        "releaseDate": "May 13, 2022",
+        "rating": 7.2,
+        "developer": "Saber Interactive",
+        "publisher": "Saber Interactive",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Alan Wake II",
+        "releaseDate": "Oct 27, 2023",
+        "rating": 8.9,
+        "developer": "Remedy Entertainment",
+        "publisher": "Epic Games",
+        "genre": "Survival",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Alan_Wake_II.jpg"
+    },
+    {
+        "title": "Fuser",
+        "releaseDate": "Nov 9, 2020",
+        "rating": 8.1,
+        "developer": "Harmonix Music Systems",
+        "publisher": "NCSOFT",
+        "genre": "Music/Rhythm",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Fuser.jpg"
+    },
+    {
+        "title": "Mortal Kombat 1",
+        "releaseDate": "Sep 14, 2023",
+        "rating": 8.3,
+        "developer": "NetherRealm Studios",
+        "publisher": "Warner Bros. Games",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Mortal_Kombat_1.jpg"
+    },
+    {
+        "title": "Teardown",
+        "releaseDate": "Apr 21, 2022",
+        "rating": 8.0,
+        "developer": "Tuxedo Labs",
+        "publisher": "Tuxedo Labs",
+        "genre": "Adventure",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Teardown.jpg"
+    },
+    {
+        "title": "Amnesia: Rebirth",
+        "releaseDate": "Sep 15, 2020",
+        "rating": 8.0,
+        "developer": "Frictional Games",
+        "publisher": "Frictional Games",
+        "genre": "3D",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Persona 5 Royal",
+        "releaseDate": "Mar 31, 2020",
+        "rating": 9.5,
+        "developer": "ATLUS",
+        "publisher": "ATLUS",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Persona_5_Royal.jpg"
+    },
+    {
+        "title": "Bayonetta 3",
+        "releaseDate": "Oct 28, 2022",
+        "rating": 8.6,
+        "developer": "PlatinumGames",
+        "publisher": "Nintendo",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Bayonetta_3.jpg"
+    },
+    {
+        "title": "Streets of Rage 4",
+        "releaseDate": "Apr 30, 2020",
+        "rating": 8.4,
+        "developer": "Seaven Studio",
+        "publisher": "Playdigious",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Streets_of_Rage_4.jpg"
+    },
+    {
+        "title": "NBA 2K23",
+        "releaseDate": "Sep 9, 2022",
+        "rating": 7.8,
+        "developer": "2K Games",
+        "publisher": "2K Sports",
+        "genre": "Basketball",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/NBA_2K23.jpg"
+    },
+    {
+        "title": "Signalis",
+        "releaseDate": "Oct 27, 2022",
+        "rating": 8.1,
+        "developer": "rose-engine",
+        "publisher": "Humble Games",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Signalis.jpg"
+    },
+    {
+        "title": "Kirby Fighters 2",
+        "releaseDate": "Sep 23, 2020",
+        "rating": 6.5,
+        "developer": "HAL Labs",
+        "publisher": "Nintendo",
+        "genre": "2D",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Kirby_Fighters_2.jpg"
+    },
+    {
+        "title": "AEW: Fight Forever",
+        "releaseDate": "Jun 29, 2023",
+        "rating": 6.4,
+        "developer": "Yuke's",
+        "publisher": "THQ Nordic",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Trials of Mana",
+        "releaseDate": "Apr 24, 2020",
+        "rating": 7.6,
+        "developer": "Xeen",
+        "publisher": "Square Enix",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Trials_of_Mana.jpg"
+    },
+    {
+        "title": "Salt and Sacrifice",
+        "releaseDate": "May 10, 2022",
+        "rating": 7.2,
+        "developer": "Devoured Studios",
+        "publisher": "Ska Studios",
+        "genre": "Metroidvania",
+        "platforms": "Nintendo Switch, PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Salt_and_Sacrifice.jpg"
+    },
+    {
+        "title": "Assassin's Creed Valhalla",
+        "releaseDate": "Nov 10, 2020",
+        "rating": 8.0,
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Assassin's_Creed_Valhalla.jpg"
+    },
+    {
+        "title": "Overwatch 2",
+        "releaseDate": "Oct 4, 2022",
+        "rating": 7.9,
+        "developer": "Blizzard Entertainment",
+        "publisher": "Blizzard Entertainment",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Overwatch_2.jpg"
+    },
+    {
+        "title": "KUNAI",
+        "releaseDate": "Feb 6, 2020",
+        "rating": 7.3,
+        "developer": "TurtleBlaze",
+        "publisher": "The Arcade Crew",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/KUNAI.jpg"
+    },
+    {
+        "title": "Tom Clancy's Rainbow Six Extraction",
+        "releaseDate": "Jan 20, 2022",
+        "rating": 7.3,
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Tom_Clancy's_Rainbow_Six_Extraction.jpg"
+    },
+    {
+        "title": "Kena: Bridge of Spirits",
+        "releaseDate": "Sep 21, 2021",
+        "rating": 8.1,
+        "developer": "Emberlab",
+        "publisher": "Emberlab",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "13 Sentinels: Aegis Rim",
+        "releaseDate": "Sep 22, 2020",
+        "rating": 8.5,
+        "developer": "Vanillaware",
+        "publisher": "ATLUS",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "The Solitaire Conspiracy",
+        "releaseDate": "Oct 6, 2020",
+        "rating": 7.0,
+        "developer": "Mike Bithell",
+        "publisher": "Mike Bithell",
+        "genre": "Trivia/Board Game",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Solitaire_Conspiracy.jpg"
+    },
+    {
+        "title": "Thirsty Suitors",
+        "releaseDate": "Nov 2, 2023",
+        "rating": 8.0,
+        "developer": "Outerloop Games",
+        "publisher": "Annapurna Interactive",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Thirsty_Suitors.jpg"
+    },
+    {
+        "title": "Children of the Sun",
+        "releaseDate": "Apr 9, 2024",
+        "rating": 8.1,
+        "developer": "Rene Rother",
+        "publisher": "Devolver Digital",
+        "genre": "Action",
+        "platforms": "PC",
+        "imageUrl": "/public/game_images/Children_of_the_Sun.jpg"
+    },
+    {
+        "title": "Bravely Default II",
+        "releaseDate": "Feb 26, 2021",
+        "rating": 7.6,
+        "developer": "Claytech Works",
+        "publisher": "Square Enix",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Bravely_Default_II.jpg"
+    },
+    {
+        "title": "Spiritfarer",
+        "releaseDate": "Aug 18, 2020",
+        "rating": 8.4,
+        "developer": "Thunder Lotus Games",
+        "publisher": "Netflix",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Spiritfarer.jpg"
+    },
+    {
+        "title": "The Talos Principle 2",
+        "releaseDate": "Nov 2, 2023",
+        "rating": 8.8,
+        "developer": "Croteam",
+        "publisher": "Devolver Digital",
+        "genre": "First-Person",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Talos_Principle_2.jpg"
+    },
+    {
+        "title": "Sackboy: A Big Adventure",
+        "releaseDate": "Nov 12, 2020",
+        "rating": 7.9,
+        "developer": "Sumo Digital",
+        "publisher": "Sony Interactive Entertainment",
+        "genre": "Platformer",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": ""
+    },
+    {
+        "title": "Escape Academy",
+        "releaseDate": "Jun 28, 2022",
+        "rating": 7.9,
+        "developer": "Coin Crew Games",
+        "publisher": "iam8bit",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Escape_Academy.jpg"
+    },
+    {
+        "title": "Voice of Cards: The Isle Dragon Roars",
+        "releaseDate": "Oct 28, 2021",
+        "rating": 7.5,
+        "developer": "A-lim",
+        "publisher": "Square Enix",
+        "genre": "Card Game",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "It Takes Two",
+        "releaseDate": "Mar 26, 2021",
+        "rating": 8.8,
+        "developer": "Hazelight",
+        "publisher": "Electronic Arts",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/It_Takes_Two.jpg"
+    },
+    {
+        "title": "Unpacking",
+        "releaseDate": "Nov 2, 2021",
+        "rating": 8.3,
+        "developer": "Witch Beam",
+        "publisher": "Humble Games",
+        "genre": "Puzzle",
+        "platforms": "PlayStation 5, PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Unpacking.jpg"
+    },
+    {
+        "title": "Avatar: Frontiers of Pandora",
+        "releaseDate": "Dec 7, 2023",
+        "rating": 7.2,
+        "developer": "Massive Entertainment",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Serious Sam 4: Planet Badass",
+        "releaseDate": "Sep 24, 2020",
+        "rating": 6.8,
+        "developer": "Croteam",
+        "publisher": "Devolver Digital",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Outriders",
+        "releaseDate": "Apr 1, 2021",
+        "rating": 7.3,
+        "developer": "People Can Fly",
+        "publisher": "Square Enix",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Outriders.jpg"
+    },
+    {
+        "title": "Persona 5 Tactica",
+        "releaseDate": "Nov 17, 2023",
+        "rating": 7.4,
+        "developer": "P-Studio",
+        "publisher": "ATLUS",
+        "genre": "Turn-Based",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Persona_5_Tactica.jpg"
+    },
+    {
+        "title": "Vampire: The Masquerade - Shadows of New York",
+        "releaseDate": "Sep 10, 2020",
+        "rating": 6.4,
+        "developer": "Draw Distance",
+        "publisher": "Draw Distance",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "A Plague Tale: Requiem",
+        "releaseDate": "Oct 17, 2022",
+        "rating": 8.2,
+        "developer": "Asobo Studio",
+        "publisher": "Focus Entertainment",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Theatrhythm Final Bar Line",
+        "releaseDate": "Feb 16, 2023",
+        "rating": 8.7,
+        "developer": "Indies Zero",
+        "publisher": "Square Enix",
+        "genre": "Music/Rhythm",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Theatrhythm_Final_Bar_Line.jpg"
+    },
+    {
+        "title": "Loop Hero",
+        "releaseDate": "Mar 4, 2021",
+        "rating": 8.2,
+        "developer": "Four Quarters",
+        "publisher": "Playdigious",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Loop_Hero.jpg"
+    },
+    {
+        "title": "Axiom Verge 2",
+        "releaseDate": "Aug 11, 2021",
+        "rating": 7.6,
+        "developer": "Tom Happ",
+        "publisher": "Tom Happ",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch, PlayStation 5",
+        "imageUrl": "/public/game_images/Axiom_Verge_2.jpg"
+    },
+    {
+        "title": "Journey to the Savage Planet",
+        "releaseDate": "Jan 28, 2020",
+        "rating": 7.4,
+        "developer": "Typhoon Studios",
+        "publisher": "505 Games",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Journey_to_the_Savage_Planet.jpg"
+    },
+    {
+        "title": "HYPER DEMON",
+        "releaseDate": "Sep 19, 2022",
+        "rating": 8.8,
+        "developer": "Sorath",
+        "publisher": "Sorath",
+        "genre": "Action",
+        "platforms": "PC",
+        "imageUrl": "/public/game_images/HYPER_DEMON.jpg"
+    },
+    {
+        "title": "Big Brain Academy: Brain vs. Brain",
+        "releaseDate": "Dec 3, 2021",
+        "rating": 7.3,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Party/Minigame",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Octopath Traveler II",
+        "releaseDate": "Feb 24, 2023",
+        "rating": 8.5,
+        "developer": "Acquire",
+        "publisher": "Square Enix",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Octopath_Traveler_II.jpg"
+    },
+    {
+        "title": "Open Roads",
+        "releaseDate": "Mar 28, 2024",
+        "rating": 6.7,
+        "developer": "Open Roads Team",
+        "publisher": "Annapurna Interactive",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Open_Roads.jpg"
+    },
+    {
+        "title": "Mass Effect Legendary Edition",
+        "releaseDate": "May 14, 2021",
+        "rating": 8.7,
+        "developer": "BioWare",
+        "publisher": "Electronic Arts",
+        "genre": "Compilation",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Mass_Effect_Legendary_Edition.jpg"
+    },
+    {
+        "title": "Marvel's Avengers",
+        "releaseDate": "Sep 4, 2020",
+        "rating": 6.7,
+        "developer": "Eidos Montreal",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Marvel's_Avengers.jpg"
+    },
+    {
+        "title": "El Paso, Elsewhere",
+        "releaseDate": "Sep 26, 2023",
+        "rating": 7.8,
+        "developer": "Strange Scaffold",
+        "publisher": "Strange Scaffold",
+        "genre": "Action",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/El_Paso,_Elsewhere.jpg"
+    },
+    {
+        "title": "The Mageseeker: A League of Legends Story",
+        "releaseDate": "Apr 18, 2023",
+        "rating": 7.8,
+        "developer": "Digital Sun",
+        "publisher": "Riot Forge",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "NORCO",
+        "releaseDate": "Mar 24, 2022",
+        "rating": 8.9,
+        "developer": "Geography of Robots",
+        "publisher": "Raw Fury",
+        "genre": "Adventure",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/NORCO.jpg"
+    },
+    {
+        "title": "Carrion",
+        "releaseDate": "Jul 23, 2020",
+        "rating": 7.5,
+        "developer": "Phobia Game Studio",
+        "publisher": "Devolver Digital",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Carrion.jpg"
+    },
+    {
+        "title": "Tales of Arise",
+        "releaseDate": "Sep 10, 2021",
+        "rating": 8.7,
+        "developer": "Bandai Namco Games",
+        "publisher": "Bandai Namco Games",
+        "genre": "Role-Playing",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Tales_of_Arise.jpg"
+    },
+    {
+        "title": "Valiant Hearts: Coming Home",
+        "releaseDate": "Feb 1, 2023",
+        "rating": 7.3,
+        "developer": "Old Skull Games",
+        "publisher": "Netflix",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Hot Wheels Unleashed 2: Turbocharged",
+        "releaseDate": "Oct 16, 2023",
+        "rating": 7.7,
+        "developer": "Milestone S.r.l",
+        "publisher": "Milestone S.r.l",
+        "genre": "Arcade",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Life is Strange: Before the Storm",
+        "releaseDate": "Feb 1, 2022",
+        "rating": 7.7,
+        "developer": "Deck Nine Games",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "The Stanley Parable: Ultra Deluxe",
+        "releaseDate": "Apr 27, 2022",
+        "rating": 9.0,
+        "developer": "Crows Crows Crows",
+        "publisher": "Crows Crows Crows",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Ori and the Will of the Wisps",
+        "releaseDate": "Mar 11, 2020",
+        "rating": 9.0,
+        "developer": "Mon Studios",
+        "publisher": "iam8bit",
+        "genre": "Metroidvania",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Ori_and_the_Will_of_the_Wisps.jpg"
+    },
+    {
+        "title": "NBA 2K21",
+        "releaseDate": "Sep 3, 2020",
+        "rating": 6.8,
+        "developer": "Visual Concepts",
+        "publisher": "2K Games",
+        "genre": "Arcade",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/NBA_2K21.jpg"
+    },
+    {
+        "title": "Mortal Shell",
+        "releaseDate": "Aug 18, 2020",
+        "rating": 7.6,
+        "developer": "Cold Symmetry",
+        "publisher": "PlayStack",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Mortal_Shell.jpg"
+    },
+    {
+        "title": "Twin Mirror",
+        "releaseDate": "Dec 1, 2020",
+        "rating": 6.5,
+        "developer": "DONTNOD Entertainment",
+        "publisher": "DONTNOD Entertainment",
+        "genre": "Adventure",
+        "platforms": "PC",
+        "imageUrl": "/public/game_images/Twin_Mirror.jpg"
+    },
+    {
+        "title": "Persona 5 Strikers",
+        "releaseDate": "Feb 19, 2021",
+        "rating": 8.3,
+        "developer": "Omega Force",
+        "publisher": "ATLUS",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Persona_5_Strikers.jpg"
+    },
+    {
+        "title": "Treachery in Beatdown City",
+        "releaseDate": "Mar 30, 2020",
+        "rating": 6.4,
+        "developer": "Nuchallenger",
+        "publisher": "Nuchallenger",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Treachery_in_Beatdown_City.jpg"
+    },
+    {
+        "title": "Weird West",
+        "releaseDate": "Mar 31, 2022",
+        "rating": 7.6,
+        "developer": "Devolver Digital",
+        "publisher": "Devolver Digital",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Weird_West.jpg"
+    },
+    {
+        "title": "Sonic Origins",
+        "releaseDate": "Jun 23, 2022",
+        "rating": 7.8,
+        "developer": "Sega",
+        "publisher": "Sega",
+        "genre": "Compilation",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Sonic_Origins.jpg"
+    },
+    {
+        "title": "Resident Evil Village",
+        "releaseDate": "May 7, 2021",
+        "rating": 8.4,
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Resident_Evil_Village.jpg"
+    },
+    {
+        "title": "Eiyuden Chronicle: Rising",
+        "releaseDate": "May 10, 2022",
+        "rating": 7.1,
+        "developer": "NATSUME ATARI Inc.",
+        "publisher": "505 Games",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Resolutiion",
+        "releaseDate": "May 28, 2020",
+        "rating": 7.4,
+        "developer": "Monolith of Minds",
+        "publisher": "Monolith of Minds",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Resolutiion.jpg"
+    },
+    {
+        "title": "Roller Champions",
+        "releaseDate": "May 25, 2022",
+        "rating": 6.9,
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "genre": "Sports",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Roller_Champions.jpg"
+    },
+    {
+        "title": "Advance Wars 1 + 2: Re-Boot Camp",
+        "releaseDate": "Apr 21, 2023",
+        "rating": 8.3,
+        "developer": "WayForward",
+        "publisher": "Nintendo",
+        "genre": "Turn-Based",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Umurangi Generation",
+        "releaseDate": "May 19, 2020",
+        "rating": 8.1,
+        "developer": "ORIGAME DIGITAL",
+        "publisher": "ORIGAME DIGITAL",
+        "genre": "VR",
+        "platforms": "PlayStation 5, PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Umurangi_Generation.jpg"
+    },
+    {
+        "title": "We Are OFK",
+        "releaseDate": "Aug 18, 2022",
+        "rating": 7.6,
+        "developer": "Team OFK",
+        "publisher": "Team OFK",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5",
+        "imageUrl": "/public/game_images/We_Are_OFK.jpg"
+    },
+    {
+        "title": "Granblue Fantasy: Versus",
+        "releaseDate": "Mar 3, 2020",
+        "rating": 7.8,
+        "developer": "Arc System Works",
+        "publisher": "Xseed Games",
+        "genre": "2D",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "Dead Island 2",
+        "releaseDate": "Apr 21, 2023",
+        "rating": 7.3,
+        "developer": "Deep Silver Dambuster Studios",
+        "publisher": "PLAION",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Dead_Island_2.jpg"
+    },
+    {
+        "title": "The Pathless",
+        "releaseDate": "Nov 12, 2020",
+        "rating": 7.7,
+        "developer": "Giant Squid",
+        "publisher": "Annapurna Interactive",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Pathless.jpg"
+    },
+    {
+        "title": "In Other Waters",
+        "releaseDate": "Apr 3, 2020",
+        "rating": 7.8,
+        "developer": "Jump Over The Age",
+        "publisher": "Fellow Traveller",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/In_Other_Waters.jpg"
+    },
+    {
+        "title": "Bear and Breakfast",
+        "releaseDate": "Jul 28, 2022",
+        "rating": 7.2,
+        "developer": "Gummy Cat",
+        "publisher": "Armor Games",
+        "genre": "Strategy",
+        "platforms": "PC, Nintendo Switch, PlayStation 5",
+        "imageUrl": "/public/game_images/Bear_and_Breakfast.jpg"
+    },
+    {
+        "title": "Cloudpunk",
+        "releaseDate": "Apr 23, 2020",
+        "rating": 7.3,
+        "developer": "ION LANDS",
+        "publisher": "ION LANDS",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Cloudpunk.jpg"
+    },
+    {
+        "title": "Microsoft Flight Simulator",
+        "releaseDate": "Aug 18, 2020",
+        "rating": 9.1,
+        "developer": "Asobo Studio",
+        "publisher": "Xbox Game Studios",
+        "genre": "Simulation",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Microsoft_Flight_Simulator.jpg"
+    },
+    {
+        "title": "MLB The Show 24",
+        "releaseDate": "Mar 15, 2024",
+        "rating": 8.0,
+        "developer": "Sony Interactive Entertainment San Diego Studio",
+        "publisher": "MLBAM",
+        "genre": "Baseball",
+        "platforms": "Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/MLB_The_Show_24.jpg"
+    },
+    {
+        "title": "Fire Emblem Engage",
+        "releaseDate": "Jan 20, 2023",
+        "rating": 8.0,
+        "developer": "Intelligent Systems",
+        "publisher": "Nintendo",
+        "genre": "Turn-Based",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Fire_Emblem_Engage.jpg"
+    },
+    {
+        "title": "Chicory: A Colorful Tale",
+        "releaseDate": "Jun 10, 2021",
+        "rating": 9.0,
+        "developer": "Greg Lobanov",
+        "publisher": "Finji",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Before Your Eyes",
+        "releaseDate": "Apr 8, 2021",
+        "rating": 7.7,
+        "developer": "GoodbyeWorld Games",
+        "publisher": "Netflix",
+        "genre": "VR",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Before_Your_Eyes.jpg"
+    },
+    {
+        "title": "Olija",
+        "releaseDate": "Jan 28, 2021",
+        "rating": 7.7,
+        "developer": "Skeleton Crew Studio",
+        "publisher": "Devolver Digital",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Olija.jpg"
+    },
+    {
+        "title": "FIFA 22",
+        "releaseDate": "Sep 27, 2021",
+        "rating": 7.8,
+        "developer": "EA Canada",
+        "publisher": "Electronic Arts",
+        "genre": "Simulation",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/FIFA_22.jpg"
+    },
+    {
+        "title": "Maneater",
+        "releaseDate": "May 22, 2020",
+        "rating": 7.0,
+        "developer": "Blindside Interactive",
+        "publisher": "Tripwire Interactive",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Maneater.jpg"
+    },
+    {
+        "title": "Riders Republic",
+        "releaseDate": "Oct 28, 2021",
+        "rating": 7.7,
+        "developer": "Ubisoft",
+        "publisher": "Ubisoft",
+        "genre": "Sports",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Riders_Republic.jpg"
+    },
+    {
+        "title": "Lost in Random",
+        "releaseDate": "Sep 10, 2021",
+        "rating": 7.8,
+        "developer": "Zoink!",
+        "publisher": "Electronic Arts",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Lost_in_Random.jpg"
+    },
+    {
+        "title": "Rogue Legacy 2",
+        "releaseDate": "Aug 18, 2020",
+        "rating": 8.8,
+        "developer": "Cellar Door Games",
+        "publisher": "Cellar Door Games",
+        "genre": "Role-Playing",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Rogue_Legacy_2.jpg"
+    },
+    {
+        "title": "Pacific Drive",
+        "releaseDate": "Feb 21, 2024",
+        "rating": 7.9,
+        "developer": "Ironwood",
+        "publisher": "Ironwood",
+        "genre": "Survival",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Pacific_Drive.jpg"
+    },
+    {
+        "title": "Capcom Fighting Collection",
+        "releaseDate": "Jun 24, 2022",
+        "rating": 7.9,
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "genre": "Compilation",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Capcom_Fighting_Collection.jpg"
+    },
+    {
+        "title": "Hyrule Warriors: Age of Calamity",
+        "releaseDate": "Nov 20, 2020",
+        "rating": 7.8,
+        "developer": "Omega Force",
+        "publisher": "Nintendo",
+        "genre": "3D",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Pentiment",
+        "releaseDate": "Nov 14, 2022",
+        "rating": 8.6,
+        "developer": "Obsidian Entertainment",
+        "publisher": "Limited Run Games",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Pentiment.jpg"
+    },
+    {
+        "title": "Wild Hearts",
+        "releaseDate": "Feb 17, 2023",
+        "rating": 7.9,
+        "developer": "Omega Force",
+        "publisher": "Electronic Arts",
+        "genre": "Role-Playing",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Wild_Hearts.jpg"
+    },
+    {
+        "title": "Evergate",
+        "releaseDate": "Aug 18, 2020",
+        "rating": 7.0,
+        "developer": "Stone Lantern Games LLC",
+        "publisher": "PQube",
+        "genre": "Platformer",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Evergate.jpg"
+    },
+    {
+        "title": "Ninjala",
+        "releaseDate": "Jun 24, 2020",
+        "rating": 6.8,
+        "developer": "Soleil Ltd.",
+        "publisher": "GungHo Online Entertainment America, Inc.",
+        "genre": "Action",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Ninjala.jpg"
+    },
+    {
+        "title": "Famicom Detective Club: The Missing Heir",
+        "releaseDate": "May 14, 2021",
+        "rating": 7.4,
+        "developer": "Mages.",
+        "publisher": "Nintendo",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Rock of Ages 3: Make & Break",
+        "releaseDate": "Jul 21, 2020",
+        "rating": 7.2,
+        "developer": "ACE Team",
+        "publisher": "Modus",
+        "genre": "Strategy",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "FIFA 21",
+        "releaseDate": "Oct 6, 2020",
+        "rating": 7.2,
+        "developer": "Electronic Arts",
+        "publisher": "Electronic Arts",
+        "genre": "Simulation",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/FIFA_21.jpg"
+    },
+    {
+        "title": "Helldivers 2",
+        "releaseDate": "Feb 8, 2024",
+        "rating": 8.2,
+        "developer": "Arrowhead Game Studios",
+        "publisher": "PlayStation PC",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Helldivers_2.jpg"
+    },
+    {
+        "title": "Psychonauts 2",
+        "releaseDate": "Aug 25, 2021",
+        "rating": 8.7,
+        "developer": "Double Fine Productions",
+        "publisher": "Xbox Game Studios",
+        "genre": "3D",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Psychonauts_2.jpg"
+    },
+    {
+        "title": "Disney Dreamlight Valley",
+        "releaseDate": "Sep 6, 2022",
+        "rating": 7.0,
+        "developer": "Gameloft",
+        "publisher": "Gameloft",
+        "genre": "Simulation",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Disney_Dreamlight_Valley.jpg"
+    },
+    {
+        "title": "Ikenfell",
+        "releaseDate": "Oct 8, 2020",
+        "rating": 7.3,
+        "developer": "Happy Ray Games",
+        "publisher": "Humble Games",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Ikenfell.jpg"
+    },
+    {
+        "title": "Nioh 2",
+        "releaseDate": "Mar 13, 2020",
+        "rating": 8.5,
+        "developer": "Team Ninja",
+        "publisher": "Koei Tecmo Games",
+        "genre": "Role-Playing",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Nioh_2.jpg"
+    },
+    {
+        "title": "Paper Mario: The Origami King",
+        "releaseDate": "Jul 17, 2020",
+        "rating": 8.0,
+        "developer": "Intelligent Systems",
+        "publisher": "Nintendo",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Another Code: Recollection",
+        "releaseDate": "Jan 19, 2024",
+        "rating": 7.3,
+        "developer": "Arc System Works",
+        "publisher": "Nintendo",
+        "genre": "Compilation",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Biomutant",
+        "releaseDate": "May 25, 2021",
+        "rating": 6.6,
+        "developer": "Experiment 101",
+        "publisher": "THQ Nordic",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Biomutant.jpg"
+    },
+    {
+        "title": "Resident Evil 3",
+        "releaseDate": "Apr 3, 2020",
+        "rating": 7.9,
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Resident_Evil_3.jpg"
+    },
+    {
+        "title": "Gnosia",
+        "releaseDate": "Mar 4, 2021",
+        "rating": 8.2,
+        "developer": "Petit Depotto",
+        "publisher": "Petit Depotto",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Gnosia.jpg"
+    },
+    {
+        "title": "Panzer Paladin",
+        "releaseDate": "Jul 21, 2020",
+        "rating": 7.7,
+        "developer": "Tribute Games",
+        "publisher": "Tribute Games",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Panzer_Paladin.jpg"
+    },
+    {
+        "title": "Cult of the Lamb",
+        "releaseDate": "Aug 11, 2022",
+        "rating": 8.2,
+        "developer": "Massive Monster",
+        "publisher": "Devolver Digital",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Cult_of_the_Lamb.jpg"
+    },
+    {
+        "title": "Grounded",
+        "releaseDate": "Jul 28, 2020",
+        "rating": 8.2,
+        "developer": "Double Eleven",
+        "publisher": "Xbox Game Studios",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Grounded.jpg"
+    },
+    {
+        "title": "New Tales from the Borderlands",
+        "releaseDate": "Oct 21, 2022",
+        "rating": 6.9,
+        "developer": "Mass Media",
+        "publisher": "2K Games",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/New_Tales_from_the_Borderlands.jpg"
+    },
+    {
+        "title": "Dying Light 2 Stay Human",
+        "releaseDate": "Feb 4, 2022",
+        "rating": 7.6,
+        "developer": "Techland",
+        "publisher": "Techland",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Dying_Light_2_Stay_Human.jpg"
+    },
+    {
+        "title": "Warhammer 40,000: Boltgun",
+        "releaseDate": "May 23, 2023",
+        "rating": 7.5,
+        "developer": "Auroch Digital",
+        "publisher": "Focus Entertainment",
+        "genre": "Shooter",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Sonic Frontiers",
+        "releaseDate": "Nov 8, 2022",
+        "rating": 7.0,
+        "developer": "Sonic Team",
+        "publisher": "Sega",
+        "genre": "3D",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Sonic_Frontiers.jpg"
+    },
+    {
+        "title": "WarioWare: Move It!",
+        "releaseDate": "Nov 3, 2023",
+        "rating": 7.5,
+        "developer": "Intelligent Systems",
+        "publisher": "Nintendo",
+        "genre": "Party/Minigame",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Game Builder Garage",
+        "releaseDate": "Jun 11, 2021",
+        "rating": 7.7,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Game_Builder_Garage.jpg"
+    },
+    {
+        "title": "Marvel's Guardians of the Galaxy",
+        "releaseDate": "Oct 26, 2021",
+        "rating": 8.0,
+        "developer": "Eidos Montreal",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Marvel's_Guardians_of_the_Galaxy.jpg"
+    },
+    {
+        "title": "Ratchet & Clank: Rift Apart",
+        "releaseDate": "Jun 11, 2021",
+        "rating": 8.8,
+        "developer": "Nixxes Software",
+        "publisher": "Sony Interactive Entertainment",
+        "genre": "Platformer",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": ""
+    },
+    {
+        "title": "Good Job!",
+        "releaseDate": "Mar 26, 2020",
+        "rating": 7.8,
+        "developer": "Paladin Studios",
+        "publisher": "Nintendo",
+        "genre": "Action",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Good_Job!.jpg"
+    },
+    {
+        "title": "Star Renegades",
+        "releaseDate": "Sep 8, 2020",
+        "rating": 7.7,
+        "developer": "Massive Damage, Inc.",
+        "publisher": "Raw Fury",
+        "genre": "Strategy",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Star_Renegades.jpg"
+    },
+    {
+        "title": "Life is Strange: True Colors",
+        "releaseDate": "Sep 10, 2021",
+        "rating": 8.1,
+        "developer": "Deck Nine Games",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Spelunky 2",
+        "releaseDate": "Sep 15, 2020",
+        "rating": 8.7,
+        "developer": "Mossmouth",
+        "publisher": "Mossmouth",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Spelunky_2.jpg"
+    },
+    {
+        "title": "Sonic Superstars",
+        "releaseDate": "Oct 17, 2023",
+        "rating": 7.3,
+        "developer": "Arzest",
+        "publisher": "Sega",
+        "genre": "2D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Sonic_Superstars.jpg"
+    },
+    {
+        "title": "Grapple Dog",
+        "releaseDate": "Feb 10, 2022",
+        "rating": 7.6,
+        "developer": "Joseph Gribbin",
+        "publisher": "H2 Interactive Co., Ltd.",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Grapple_Dog.jpg"
+    },
+    {
+        "title": "Deathloop",
+        "releaseDate": "Sep 14, 2021",
+        "rating": 8.8,
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Deathloop.jpg"
+    },
+    {
+        "title": "Dragon Quest Treasures",
+        "releaseDate": "Dec 9, 2022",
+        "rating": 7.2,
+        "developer": "TOSE",
+        "publisher": "Square Enix",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Dragon_Quest_Treasures.jpg"
+    },
+    {
+        "title": "Necrobarista",
+        "releaseDate": "Jul 17, 2020",
+        "rating": 8.1,
+        "developer": "Route 59",
+        "publisher": "Route 59",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Necrobarista.jpg"
+    },
+    {
+        "title": "Dead Space",
+        "releaseDate": "Jan 27, 2023",
+        "rating": 8.9,
+        "developer": "Motive Studios",
+        "publisher": "Electronic Arts",
+        "genre": "3D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Dead_Space.jpg"
+    },
+    {
+        "title": "Return to Monkey Island",
+        "releaseDate": "Sep 19, 2022",
+        "rating": 8.7,
+        "developer": "Terrible Toybox",
+        "publisher": "Devolver Digital",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Return_to_Monkey_Island.jpg"
+    },
+    {
+        "title": "DIRT 5",
+        "releaseDate": "Nov 3, 2020",
+        "rating": 7.9,
+        "developer": "Codemasters",
+        "publisher": "Deep Silver",
+        "genre": "Driving/Racing",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/DIRT_5.jpg"
+    },
+    {
+        "title": "Humanity",
+        "releaseDate": "May 16, 2023",
+        "rating": 8.6,
+        "developer": "Tha Ltd.",
+        "publisher": "Enhance Games",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Humanity.jpg"
+    },
+    {
+        "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+        "releaseDate": "Nov 9, 2023",
+        "rating": 7.8,
+        "developer": "Ryu ga Gotoku Studios",
+        "publisher": "Sega",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Crusader Kings III",
+        "releaseDate": "Sep 1, 2020",
+        "rating": 9.1,
+        "developer": "Paradox Interactive",
+        "publisher": "Paradox Interactive",
+        "genre": "Real-Time",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Crusader_Kings_III.jpg"
+    },
+    {
+        "title": "Desta: The Memories Between",
+        "releaseDate": "Sep 27, 2022",
+        "rating": 7.3,
+        "developer": "ustwo",
+        "publisher": "Netflix",
+        "genre": "Strategy",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Digimon Survive",
+        "releaseDate": "Jul 29, 2022",
+        "rating": 7.0,
+        "developer": "Hyde",
+        "publisher": "Bandai Namco Games",
+        "genre": "Strategy",
+        "platforms": "PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Digimon_Survive.jpg"
+    },
+    {
+        "title": "Call of Duty: Warzone",
+        "releaseDate": "Nov 14, 2022",
+        "rating": 7.9,
+        "developer": "Infinity Ward",
+        "publisher": "Activision",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Bugsnax",
+        "releaseDate": "Nov 12, 2020",
+        "rating": 7.5,
+        "developer": "Young Horses, Inc",
+        "publisher": "Young Horses, Inc",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Bugsnax.jpg"
+    },
+    {
+        "title": "A Total War Saga: TROY",
+        "releaseDate": "Aug 13, 2020",
+        "rating": 7.5,
+        "developer": "Creative Assembly",
+        "publisher": "Sega",
+        "genre": "Strategy",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "releaseDate": "May 12, 2023",
+        "rating": 9.6,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Action",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Mario Golf: Super Rush",
+        "releaseDate": "Jun 25, 2021",
+        "rating": 7.0,
+        "developer": "Camelot Software Planning",
+        "publisher": "Nintendo",
+        "genre": "Arcade",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Minecraft Legends",
+        "releaseDate": "Apr 18, 2023",
+        "rating": 7.1,
+        "developer": "Mojang AB",
+        "publisher": "Mojang AB",
+        "genre": "Real-Time",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Minecraft_Legends.jpg"
+    },
+    {
+        "title": "Guilty Gear -Strive-",
+        "releaseDate": "Jun 8, 2021",
+        "rating": 8.7,
+        "developer": "Arc System Works",
+        "publisher": "Arc System Works",
+        "genre": "2D",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Guilty_Gear_-Strive-.jpg"
+    },
+    {
+        "title": "NEO: The World Ends with You",
+        "releaseDate": "Jul 27, 2021",
+        "rating": 8.0,
+        "developer": "h.a.n.d. Inc.",
+        "publisher": "Square Enix",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Super Mario Bros. Wonder",
+        "releaseDate": "Oct 20, 2023",
+        "rating": 9.2,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Platformer",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Super_Mario_Bros._Wonder.jpg"
+    },
+    {
+        "title": "OlliOlli World",
+        "releaseDate": "Feb 8, 2022",
+        "rating": 8.4,
+        "developer": "roll7",
+        "publisher": "Private Division",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/OlliOlli_World.jpg"
+    },
+    {
+        "title": "Mundaun",
+        "releaseDate": "Mar 16, 2021",
+        "rating": 7.2,
+        "developer": "Hidden Fields",
+        "publisher": "MWM Interactive",
+        "genre": "3D",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Mundaun.jpg"
+    },
+    {
+        "title": "Another Crab's Treasure",
+        "releaseDate": "Apr 25, 2024",
+        "rating": 7.9,
+        "developer": "Aggro Crab",
+        "publisher": "Aggro Crab",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Another_Crab's_Treasure.jpg"
+    },
+    {
+        "title": "Disney TRON: Identity",
+        "releaseDate": "Apr 11, 2023",
+        "rating": 6.7,
+        "developer": "Bithell Games",
+        "publisher": "Bithell Games",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "LEGO Star Wars: The Skywalker Saga",
+        "releaseDate": "Apr 5, 2022",
+        "rating": 8.2,
+        "developer": "TT Games",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "The Medium",
+        "releaseDate": "Jan 28, 2021",
+        "rating": 7.1,
+        "developer": "Bloober Team",
+        "publisher": "Bloober Team",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Medium.jpg"
+    },
+    {
+        "title": "Nintendo Switch Sports",
+        "releaseDate": "Apr 29, 2022",
+        "rating": 7.2,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Sports",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Nintendo_Switch_Sports.jpg"
+    },
+    {
+        "title": "Tell Me Why",
+        "releaseDate": "Aug 27, 2020",
+        "rating": 7.8,
+        "developer": "DONTNOD Entertainment",
+        "publisher": "Xbox Game Studios",
+        "genre": "Adventure",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Tell_Me_Why.jpg"
+    },
+    {
+        "title": "The Pedestrian",
+        "releaseDate": "Jan 29, 2020",
+        "rating": 8.1,
+        "developer": "Skookum Arts",
+        "publisher": "Skookum Arts",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Pedestrian.jpg"
+    },
+    {
+        "title": "Immortals Fenyx Rising",
+        "releaseDate": "Dec 3, 2020",
+        "rating": 8.1,
+        "developer": "Ubisoft Quebec",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Immortals_Fenyx_Rising.jpg"
+    },
+    {
+        "title": "Stray Gods: The Roleplaying Musical",
+        "releaseDate": "Aug 10, 2023",
+        "rating": 7.5,
+        "developer": "Summerfall Studios",
+        "publisher": "Humble Games",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Pepper Grinder",
+        "releaseDate": "Mar 28, 2024",
+        "rating": 7.8,
+        "developer": "Ahr Ech",
+        "publisher": "Devolver Digital",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Pepper_Grinder.jpg"
+    },
+    {
+        "title": "Age of Empires IV",
+        "releaseDate": "Oct 28, 2021",
+        "rating": 8.1,
+        "developer": "Relic",
+        "publisher": "Xbox Game Studios",
+        "genre": "Real-Time",
+        "platforms": "PC, Xbox Series X",
+        "imageUrl": "/public/game_images/Age_of_Empires_IV.jpg"
+    },
+    {
+        "title": "Horizon Forbidden West",
+        "releaseDate": "Feb 18, 2022",
+        "rating": 8.8,
+        "developer": "Nixxes Software",
+        "publisher": "PlayStation PC",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Horizon_Forbidden_West.jpg"
+    },
+    {
+        "title": "Unsighted",
+        "releaseDate": "Sep 30, 2021",
+        "rating": 8.4,
+        "developer": "Studio Pixel Punk",
+        "publisher": "Humble Games",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/Unsighted.jpg"
+    },
+    {
+        "title": "Tetris Effect: Connected",
+        "releaseDate": "Nov 10, 2020",
+        "rating": 8.8,
+        "developer": "Monstars Inc.",
+        "publisher": "Enhance Games",
+        "genre": "Matching/Stacking",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Fall Guys",
+        "releaseDate": "Aug 4, 2020",
+        "rating": 8.1,
+        "developer": "Mediatonic",
+        "publisher": "Epic Games",
+        "genre": "Party/Minigame",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Fall_Guys.jpg"
+    },
+    {
+        "title": "Project CARS 3",
+        "releaseDate": "Aug 3, 2020",
+        "rating": 7.0,
+        "developer": "Slightly Mad Studios",
+        "publisher": "Bandai Namco Games",
+        "genre": "Simulation",
+        "platforms": "PC",
+        "imageUrl": "/public/game_images/Project_CARS_3.jpg"
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "releaseDate": "Mar 23, 2020",
+        "rating": 9.3,
+        "developer": "Valve Software",
+        "publisher": "Valve Software",
+        "genre": "3D",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "SpongeBob SquarePants: The Cosmic Shake",
+        "releaseDate": "Jan 31, 2023",
+        "rating": 7.0,
+        "developer": "HandyGames",
+        "publisher": "HandyGames",
+        "genre": "3D",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Xenoblade Chronicles 3",
+        "releaseDate": "Jul 29, 2022",
+        "rating": 8.9,
+        "developer": "Monolith Soft",
+        "publisher": "Nintendo",
+        "genre": "Role-Playing",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Xenoblade_Chronicles_3.jpg"
+    },
+    {
+        "title": "New Pokemon Snap",
+        "releaseDate": "Apr 30, 2021",
+        "rating": 7.9,
+        "developer": "Bandai Namco Games",
+        "publisher": "Nintendo",
+        "genre": "Action",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/New_Pokemon_Snap.jpg"
+    },
+    {
+        "title": "MLB The Show 23",
+        "releaseDate": "Mar 24, 2023",
+        "rating": 8.2,
+        "developer": "Sony Interactive Entertainment San Diego Studio",
+        "publisher": "MLBAM",
+        "genre": "Baseball",
+        "platforms": "Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/MLB_The_Show_23.jpg"
+    },
+    {
+        "title": "Master Detective Archives: RAIN CODE",
+        "releaseDate": "Jun 30, 2023",
+        "rating": 7.7,
+        "developer": "Too Kyo Games",
+        "publisher": "Spike Chunsoft",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Viewfinder",
+        "releaseDate": "Jul 18, 2023",
+        "rating": 8.4,
+        "developer": "Sad Owl Studios",
+        "publisher": "Thunderful",
+        "genre": "First-Person",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Viewfinder.jpg"
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "releaseDate": "Apr 10, 2020",
+        "rating": 8.7,
+        "developer": "Square Enix",
+        "publisher": "Square Enix",
+        "genre": "Role-Playing",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Final_Fantasy_VII_Remake.jpg"
+    },
+    {
+        "title": "Super Mario 3D All-Stars",
+        "releaseDate": "Sep 18, 2020",
+        "rating": 8.2,
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "genre": "Compilation",
+        "platforms": "Nintendo Switch",
+        "imageUrl": "/public/game_images/Super_Mario_3D_All-Stars.jpg"
+    },
+    {
+        "title": "RiffTrax: The Game",
+        "releaseDate": "May 5, 2022",
+        "rating": 7.9,
+        "developer": "Wide Right Interactive",
+        "publisher": "Wide Right Interactive",
+        "genre": "Party/Minigame",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Nickelodeon All-Star Brawl",
+        "releaseDate": "Oct 5, 2021",
+        "rating": 6.5,
+        "developer": "Ludosity Interactive",
+        "publisher": "GameMill Entertainment",
+        "genre": "2D",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Nickelodeon_All-Star_Brawl.jpg"
+    },
+    {
+        "title": "If Found...",
+        "releaseDate": "May 18, 2020",
+        "rating": 8.4,
+        "developer": "dreamfeel",
+        "publisher": "Annapurna Interactive",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": "/public/game_images/If_Found....jpg"
+    },
+    {
+        "title": "Granblue Fantasy: Relink",
+        "releaseDate": "Jan 29, 2024",
+        "rating": 8.0,
+        "developer": "Cygames",
+        "publisher": "Cygames",
+        "genre": "Role-Playing",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": ""
+    },
+    {
+        "title": "WarioWare: Get It Together!",
+        "releaseDate": "Sep 10, 2021",
+        "rating": 7.6,
+        "developer": "Intelligent Systems",
+        "publisher": "Nintendo",
+        "genre": "Party/Minigame",
+        "platforms": "Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Sam & Max: Beyond Time and Space",
+        "releaseDate": "Dec 8, 2021",
+        "rating": 8.0,
+        "developer": "Telltale Games",
+        "publisher": "Telltale Games",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Watch Dogs: Legion",
+        "releaseDate": "Oct 29, 2020",
+        "rating": 7.6,
+        "developer": "Ubisoft",
+        "publisher": "Ubisoft",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Aragami 2",
+        "releaseDate": "Sep 17, 2021",
+        "rating": 6.4,
+        "developer": "Lince Works",
+        "publisher": "Arc System Works",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Aragami_2.jpg"
+    },
+    {
+        "title": "Sea of Stars",
+        "releaseDate": "Aug 29, 2023",
+        "rating": 8.7,
+        "developer": "Sabotage Studio",
+        "publisher": "Sabotage Studio",
+        "genre": "Role-Playing",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Sea_of_Stars.jpg"
+    },
+    {
+        "title": "Balatro",
+        "releaseDate": "Feb 20, 2024",
+        "rating": 9.0,
+        "developer": "LocalThunk",
+        "publisher": "PlayStack",
+        "genre": "Card Game",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Balatro.jpg"
+    },
+    {
+        "title": "Venba",
+        "releaseDate": "Jul 31, 2023",
+        "rating": 7.9,
+        "developer": "Visai Games",
+        "publisher": "Visai Games",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Venba.jpg"
+    },
+    {
+        "title": "Ghost of Tsushima",
+        "releaseDate": "Jul 17, 2020",
+        "rating": 8.3,
+        "developer": "Nixxes Software",
+        "publisher": "PlayStation PC",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Ghost_of_Tsushima.jpg"
+    },
+    {
+        "title": "Monster Hunter Rise",
+        "releaseDate": "Mar 26, 2021",
+        "rating": 8.8,
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "genre": "Action",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Monster_Hunter_Rise.jpg"
+    },
+    {
+        "title": "Scarlet Nexus",
+        "releaseDate": "Jun 25, 2021",
+        "rating": 8.0,
+        "developer": "Bandai Namco Games",
+        "publisher": "Bandai Namco Games",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Scarlet_Nexus.jpg"
+    },
+    {
+        "title": "XCOM: Chimera Squad",
+        "releaseDate": "Apr 23, 2020",
+        "rating": 7.7,
+        "developer": "Firaxis Games",
+        "publisher": "2K Games",
+        "genre": "Strategy",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "NBA 2K24",
+        "releaseDate": "Sep 8, 2023",
+        "rating": 6.8,
+        "developer": "Visual Concepts",
+        "publisher": "2K Games",
+        "genre": "Basketball",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/NBA_2K24.jpg"
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "releaseDate": "Dec 10, 2020",
+        "rating": 8.6,
+        "developer": "CD Projekt Red Studio",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Cyberpunk_2077.jpg"
+    },
+    {
+        "title": "Call of Duty: Warzone Caldera",
+        "releaseDate": "Mar 10, 2020",
+        "rating": 7.9,
+        "developer": "Infinity Ward",
+        "publisher": "Activision",
+        "genre": "First-Person",
+        "platforms": "PC",
+        "imageUrl": ""
+    },
+    {
+        "title": "THE FINALS",
+        "releaseDate": "Dec 7, 2023",
+        "rating": 8.0,
+        "developer": "Embark Studios",
+        "publisher": "Embark Studios",
+        "genre": "First-Person",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/THE_FINALS.jpg"
+    },
+    {
+        "title": "Death's Door",
+        "releaseDate": "Jul 20, 2021",
+        "rating": 8.5,
+        "developer": "Acid Nerve",
+        "publisher": "Devolver Digital",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Death's_Door.jpg"
+    },
+    {
+        "title": "Nickelodeon All-Star Brawl 2",
+        "releaseDate": "Nov 7, 2023",
+        "rating": 7.7,
+        "developer": "Ludosity Interactive",
+        "publisher": "GameMill Entertainment",
+        "genre": "2D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/Nickelodeon_All-Star_Brawl_2.jpg"
+    },
+    {
+        "title": "Ultros",
+        "releaseDate": "Feb 13, 2024",
+        "rating": 7.9,
+        "developer": "Hadoque",
+        "publisher": "Kepler Interactive",
+        "genre": "Platformer",
+        "platforms": "PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Ultros.jpg"
+    },
+    {
+        "title": "EA Sports FC 24",
+        "releaseDate": "Sep 22, 2023",
+        "rating": 7.5,
+        "developer": "EA Canada",
+        "publisher": "Electronic Arts",
+        "genre": "Simulation",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/EA_Sports_FC_24.jpg"
+    },
+    {
+        "title": "WindJammers 2",
+        "releaseDate": "Jan 20, 2022",
+        "rating": 7.8,
+        "developer": "DotEmu",
+        "publisher": "DotEmu",
+        "genre": "Sports",
+        "platforms": "PC, Nintendo Switch, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/WindJammers_2.jpg"
+    },
+    {
+        "title": "Planet of Lana",
+        "releaseDate": "May 23, 2023",
+        "rating": 8.0,
+        "developer": "Wishfully",
+        "publisher": "Thunderful",
+        "genre": "Adventure",
+        "platforms": "PlayStation 5, PC, Nintendo Switch, Xbox Series X",
+        "imageUrl": "/public/game_images/Planet_of_Lana.jpg"
+    },
+    {
+        "title": "SIFU",
+        "releaseDate": "Feb 6, 2022",
+        "rating": 8.1,
+        "developer": "Sloclap",
+        "publisher": "Sloclap",
+        "genre": "3D",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/SIFU.jpg"
+    },
+    {
+        "title": "Oxenfree II: Lost Signals",
+        "releaseDate": "Jul 12, 2023",
+        "rating": 7.3,
+        "developer": "Night School Studio",
+        "publisher": "Netflix",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch, PlayStation 5",
+        "imageUrl": ""
+    },
+    {
+        "title": "Animal Well",
+        "releaseDate": "May 9, 2024",
+        "rating": 9.1,
+        "developer": "Shared Memory",
+        "publisher": "Limited Run Games",
+        "genre": "Metroidvania",
+        "platforms": "Nintendo Switch, PC, PlayStation 5",
+        "imageUrl": "/public/game_images/Animal_Well.jpg"
+    },
+    {
+        "title": "The Big Con",
+        "releaseDate": "Aug 31, 2021",
+        "rating": 7.7,
+        "developer": "Mighty Yell",
+        "publisher": "Mighty Yell",
+        "genre": "Adventure",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/The_Big_Con.jpg"
+    },
+    {
+        "title": "Bright Memory: Infinite",
+        "releaseDate": "Nov 11, 2021",
+        "rating": 6.7,
+        "developer": "FYQD-Studio",
+        "publisher": "Playism",
+        "genre": "Shooter",
+        "platforms": "Nintendo Switch, PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Armored Core VI: Fires of Rubicon",
+        "releaseDate": "Aug 24, 2023",
+        "rating": 8.6,
+        "developer": "From Software",
+        "publisher": "From Software",
+        "genre": "Simulation",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": ""
+    },
+    {
+        "title": "Bloodstained: Curse of the Moon 2",
+        "releaseDate": "Jul 10, 2020",
+        "rating": 8.2,
+        "developer": "Inti",
+        "publisher": "Limited Run Games",
+        "genre": "Platformer",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "WWE 2K24",
+        "releaseDate": "Mar 5, 2024",
+        "rating": 8.1,
+        "developer": "Visual Concepts",
+        "publisher": "2K Games",
+        "genre": "Action",
+        "platforms": "PC, PlayStation 5, Xbox Series X",
+        "imageUrl": "/public/game_images/WWE_2K24.jpg"
+    },
+    {
+        "title": "Monster Hunter Stories 2: Wings of Ruin",
+        "releaseDate": "Jul 9, 2021",
+        "rating": 8.1,
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "genre": "Role-Playing",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    },
+    {
+        "title": "Sam & Max: Save the World",
+        "releaseDate": "Dec 2, 2020",
+        "rating": 7.5,
+        "developer": "Skunkape Games",
+        "publisher": "Skunkape Games",
+        "genre": "Adventure",
+        "platforms": "PC, Nintendo Switch",
+        "imageUrl": ""
+    }
+]

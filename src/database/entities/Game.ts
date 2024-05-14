@@ -13,7 +13,7 @@ export class Game {
 	@Column()
 	genre: string;
 
-	@Column("text")
+	@Column({ nullable: true })
 	description: string;
 
 	@ManyToMany(() => Platform, (platform) => platform.games)
@@ -31,7 +31,7 @@ export class Game {
 	@Column("numeric", { precision: 2, scale: 1, nullable: true })
 	rating: number;
 
-	@OneToMany(() => UserGame, userGame => userGame.user)
+	@OneToMany(() => UserGame, userGame => userGame.game)
     userGames: UserGame[];  
 
 	@Column({ nullable: true })
