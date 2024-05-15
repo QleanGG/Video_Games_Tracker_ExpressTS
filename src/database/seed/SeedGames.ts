@@ -4,6 +4,7 @@ import { Platform } from "../entities/Platform";
 import ormConfig from "../ormconfig.json";
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 import { Game } from "../entities/Game";
+import { Console } from "console";
 
 const dataSource = new DataSource(ormConfig as PostgresConnectionOptions);
 
@@ -12,22 +13,26 @@ async function seedGames() {
 	const gameRepository = dataSource.getRepository(Game);
 	const platformRepo = dataSource.getRepository(Platform);
 
-	const gameData = JSON.parse(fs.readFileSync("./game_info.json", "utf-8"));
-
+	const gameData = JSON.parse(fs.readFileSync("game_info.json", "utf-8"));
 	for (const row of gameData) {
-		const {
-			Title: title,
-			releaseDate,
-			Score: rating,
-			Developer: developer,
-			Genre: genre,
-			Description: description = "No description available",
-			Platforms: platformsString,
-			imageUrl,
-		} = row;
+		const title = row.title;
+		const releaseDate = row.releaseDate;
+        const publisher = row.publisher;
+		const rating = row.rating;
+		const developer = row.developer;
+		const genre = row.genre;
+		const imageUrl = row.imageUrl;
+        const platforms = row.platforms;
+
+		// Handling the 'Description' with a default value if it does not exist:
+		let description = row.Description;
+		if (description === undefined || description === null) {
+			description = "No description available";
+		}
 
 		let game = await gameRepository.findOneBy({ title });
-
+        
+        console.log(publisher);
 		if (!game) {
 			game = gameRepository.create({
 				title,
@@ -37,6 +42,7 @@ async function seedGames() {
 				genre,
 				description,
 				imageUrl,
+                publisher
 			});
 		} else {
 			game.releaseDate = new Date(releaseDate);
@@ -45,11 +51,11 @@ async function seedGames() {
 			game.genre = genre;
 			game.description = description;
 			game.imageUrl = imageUrl;
+            game.publisher = publisher;
 		}
 
-		// Normalize platforms to always be an array, even if only one is provided
-		// Normalize platforms to always be an array, even if only one is provided
-		const platformNames = platformsString
+
+		const platformNames = row.platforms
 			.split(", ")
 			.map((p: string) => p.trim());
 		for (const name of platformNames) {
