@@ -1,22 +1,21 @@
 import "reflect-metadata";
 import express, { Request, Response } from "express";
-import { initializeDatabase } from "./database/database";
-// import cors from "cors";
+import cors from "cors";
+import gameRoutes from './routes/GameRoutes';
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+// middleware
+app.use(cors());
+app.use(express.json());
 
-//* Starting the db connection
+// Routers
 app.get("/", (req: Request, res: Response, next) => {
-	res.send("Hello World!");
+    res.json("Hello World!");
 });
 
-// Starting db and port
-initializeDatabase().then(() => {
-    app.listen(PORT, () => {
-        console.log(`Server running on http://localhost:${PORT}`);
-    });
-}).catch(error => {
-    console.error('Failed to start due to database initialization errors:', error);
-});
+app.use('/api', gameRoutes);
+
+
+export default app;
+
