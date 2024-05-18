@@ -1,5 +1,8 @@
 import { initializeDatabase } from "./database/database";
 import app from "./app";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 // Starting db and port
 initializeDatabase().then(() => {
