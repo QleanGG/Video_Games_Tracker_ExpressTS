@@ -23,7 +23,7 @@ export class GameController {
             const {id} = req.params;
             const game = await this.gameService.getGame(Number(id));
             if (game) {
-                res.json(game)
+                res.json(game);
             } else {
                 res.status(400).json({message: 'Game not found'});
             }

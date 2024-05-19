@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany, OneToOne } from "typeorm";
 import { UserGame } from "./UserGame";
-import { UserProfile } from "./UserProfile";
+import { Profile } from "./Profile";
 
 @Entity()
 export class User {
@@ -22,9 +22,12 @@ export class User {
     @Column({nullable: true})
     oauthId: string;
 
-    @OneToOne(() => UserProfile, profile => profile.user)
-    profile: UserProfile;
+    @OneToOne(() => Profile, profile => profile.user)
+    profile: Profile;
 
     @OneToMany(() => UserGame, userGame => userGame.user)
     userGames: UserGame[];  // Games associated with the user
+
+    @Column({ default: 'user' })
+    role: string;
 }

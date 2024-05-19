@@ -1,15 +1,16 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn, OneToMany } from 'typeorm';
 import { User } from './User';
+import { UserGame } from "./UserGame";
 
 @Entity()
-export class UserProfile {
+export class Profile {
     @PrimaryGeneratedColumn()
     id: number;
     
     @Column({ nullable: true })
     bio: string; // Short biography or gamer description
     
-    @Column({ nullable: true })
+    @Column({ nullable: true, default: "/public/default_avatar.png" })
     avatarUrl: string; // URL to the user's avatar image, can be linked to an actual image file
     
     @Column({ nullable: true })
