@@ -32,26 +32,20 @@ passport.use(
 		},
 		async (email, password, done) => {
 			try {
-				const user = await userRepository.findOne({ where: { email } });
-				if (!user) {
-					return done(null, false, {
-						message:
-							"It seems like this email doesn't exist or the password is incorrect",
-					});
-				}
-				// Validate the password (add your own password validation logic)
-				if (user.password !== password) {
-					return done(null, false, {
-						message:
-							"It seems like this email doesn't exist or the password is incorrect",
-					});
-				}
-				return done(null, user);
-			} catch (error) {
-				return done(error);
-			}
-		}
-	)
+                const user = await userRepository.findOne({ where: { email } });
+                if (!user) {
+                    return done(null, false, { message: 'Invalid email or password' });
+                }
+                const isMatch = await bcrypt.compare(password, user.password!);
+                if (!isMatch) {
+                    return done(null, false, { message: 'Invalid email or password' });
+                }
+                return done(null, user);
+            } catch (error) {
+                return done(error);
+            }
+        }
+    )
 );
 
 passport.use(
@@ -70,7 +64,7 @@ passport.use(
 				if (!user) {
 					user = userRepository.create({
 						username: profile.displayName,
-						email: profile.emails?.[0]?.value,
+						email: profile.emails![0].value,
 						oauthProvider: "google",
 						oauthId: profile.id,
 					});
