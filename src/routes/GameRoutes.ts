@@ -1,20 +1,24 @@
 import { Router } from "express";
 import { GameController } from "../controllers/GameController";
+import { checkAdmin } from '../middleware/checkAdmin';
+import { isAuthenticated } from '../middleware/authMiddleware';
+import { gameValidationRules, validate } from '../validators/gameValidators';
+import asyncHandler from '../utils/asyncHandler';
 
 const router = Router()
 const gameController = new GameController();
 
 // Get Routes
-router.get('', gameController.getAllGames.bind(gameController));
-router.get('/:id', gameController.getGame.bind(gameController));
+router.get('', asyncHandler(gameController.getAllGames.bind(gameController)));
+router.get('/:id', asyncHandler(gameController.getGame.bind(gameController)));
 
 // Post route
-router.post('', gameController.createGame.bind(gameController));
+router.post('',isAuthenticated, checkAdmin, gameValidationRules(), validate, asyncHandler(gameController.createGame.bind(gameController)));
 
 // Delete Route
-router.delete('/:id', gameController.deleteGame.bind(gameController));
+router.delete('/:id',isAuthenticated, checkAdmin, asyncHandler(gameController.deleteGame.bind(gameController)));
 
 // Update Route
-router.put('/:id', gameController.updateGame.bind(gameController));
+router.put('/:id', isAuthenticated, checkAdmin, gameValidationRules(), validate, asyncHandler(gameController.updateGame.bind(gameController)));
 
 export default router;
