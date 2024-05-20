@@ -1,6 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn, OneToMany } from 'typeorm';
 import { User } from './User';
-import { UserGame } from "./UserGame";
 
 @Entity()
 export class Profile {
@@ -19,10 +18,10 @@ export class Profile {
     @Column({ nullable: true })
     gamerTag: string; // User's in-game nickname or handle
     
-    @Column({ type: 'text', array: true })
+    @Column({ type: 'text', array: true, nullable: true })
     platforms: string[]; // Array of gaming platforms the user is interested in
     
-    @Column()
+    @Column({ nullable: true })
     mainPlatform: string; // User's primary gaming platform
     
     @OneToOne(() => User, user => user.profile)

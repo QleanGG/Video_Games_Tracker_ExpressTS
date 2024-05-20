@@ -8,7 +8,7 @@ export class ProfileService {
     private profileRepository = AppDataSource.getRepository(Profile);
     private userGameRepository = AppDataSource.getRepository(UserGame);
     
-    async getProfile(userId: number): Promise<{user: User, profile: Profile, games: UserGame[]} | {message:string}> {
+    async getProfile(userId: number): Promise<{ profile: Profile, games: UserGame[]} | {message:string}> {
         const user = await this.userRepository.findOne({where: {id:userId}, relations: ['profile']});
 
         if (!user) {
@@ -24,7 +24,7 @@ export class ProfileService {
 
         const games = await this.userGameRepository.find({where: {user: {id: userId}}, relations: ['game'] });
 
-        return {user, profile, games};
+        return { profile, games};
     }
 
     async updateProfile(userId: number, profileData: Partial<Profile>): Promise<Profile | {message:string}> {
