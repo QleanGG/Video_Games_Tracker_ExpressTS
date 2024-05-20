@@ -1,6 +1,6 @@
 import { DataSource } from "typeorm";
 import { Platform } from "../entities/Platform";
-import ormConfig from '../ormconfig.json';
+import ormConfig from '../ormconfig';
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
 const dataSource = new DataSource(ormConfig as PostgresConnectionOptions);

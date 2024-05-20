@@ -13,7 +13,7 @@ import errorHandler from "./middleware/errorHandler";
 import logger from './config/logger';
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
-
+import path from 'path';
 
 dotenv.config();
 
@@ -75,6 +75,9 @@ app.use(session({
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
+
+// Serve static files from the 'uploads' directory
+app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // Routers
 app.use('/api', routes);

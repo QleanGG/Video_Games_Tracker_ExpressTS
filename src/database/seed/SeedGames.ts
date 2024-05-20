@@ -1,7 +1,7 @@
 import { DataSource } from "typeorm";
 import fs from "fs";
 import { Platform } from "../entities/Platform";
-import ormConfig from "../ormconfig.json";
+import ormConfig from "../ormconfig";
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 import { Game } from "../entities/Game";
 import { Console } from "console";
