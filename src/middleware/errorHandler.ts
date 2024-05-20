@@ -1,8 +1,14 @@
+// src/middleware/errorHandler.ts
 import { Request, Response, NextFunction } from 'express';
+import logger from '../config/logger';
 
-function errorHandler(err: Error, req: Request, res: Response, next: NextFunction) {
-    console.error('An error occurred:', err.message);
-    res.status(500).json({ message: 'An internal server error occurred' });
-}
+const errorHandler = (err: any, req: Request, res: Response, next: NextFunction) => {
+    const statusCode = err.statusCode || 500;
+    logger.error('Error message from the centralized error-handling middleware', err);
+    res.status(statusCode).json({
+        message: err.message,
+        stack: process.env.NODE_ENV === 'production' ? null : err.stack,
+    });
+};
 
 export default errorHandler;
