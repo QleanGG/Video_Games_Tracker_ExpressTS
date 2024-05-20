@@ -12,7 +12,7 @@ class UserGameController {
     async addUserGame(req: Request, res: Response): Promise<void> {
         const { gameId, status, rating, review } = req.body;
         const userId = (req.user as any).id;
-        const result = await this.userGameService.addUserGame(userId, gameId, status as GameStatus, rating, review);
+        const result = await this.userGameService.addUserGame(userId, gameId, status as GameStatus, parseFloat(rating), review);
         if ('message' in result) {
             res.status(400).json(result);
         } else {
@@ -26,11 +26,25 @@ class UserGameController {
         res.json(userGames);
     }
 
+    async getUserGameById(req: Request, res: Response): Promise<void> {
+        const { userGameId } = req.params;
+        const userId = (req.user as any).id;
+        const result = await this.userGameService.getUserGameById(userId, Number(userGameId));
+        if ('message' in result) {
+            res.status(404).json(result);
+        } else {
+            res.json(result);
+        }
+    }
+
     async updateUserGame(req: Request, res: Response): Promise<void> {
-        const { gameId } = req.params;
+        const { userGameId } = req.params;
         const { status, rating, review } = req.body;
         const userId = (req.user as any).id;
-        const result = await this.userGameService.updateUserGame(userId, Number(gameId), status as GameStatus, rating, review);
+
+        const parsedRating = rating !== undefined ? parseFloat(rating) : undefined;
+
+        const result = await this.userGameService.updateUserGame(userId, Number(userGameId), status as GameStatus, review, parsedRating);
         if ('message' in result) {
             res.status(400).json(result);
         } else {
@@ -39,9 +53,9 @@ class UserGameController {
     }
 
     async deleteUserGame(req: Request, res: Response): Promise<void> {
-        const { gameId } = req.params;
+        const { userGameId } = req.params;
         const userId = (req.user as any).id;
-        const result = await this.userGameService.deleteUserGame(userId, Number(gameId));
+        const result = await this.userGameService.deleteUserGame(userId, Number(userGameId));
         res.json(result);
     }
 }

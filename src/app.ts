@@ -8,6 +8,8 @@ import routes from "./routes";
 import flash from "connect-flash";
 import RedisStore from 'connect-redis';
 import redisClient from './config/redisClient';
+import jsonErrorHandler from "./middleware/jsonErrorHandler";
+import errorHandler from "./middleware/errorHandler";
 
 dotenv.config();
 
@@ -23,6 +25,7 @@ if (!REDIS_URL || !REDIS_TOKEN) {
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use(jsonErrorHandler);
 
 app.use(session({
     store: new RedisStore({ 
@@ -55,5 +58,7 @@ app.use('/api', routes);
 app.get('/', (req: Request, res: Response) => {
     res.json("Hello World!");
 });
+
+app.use(errorHandler);
 
 export default app;
