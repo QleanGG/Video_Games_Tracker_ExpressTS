@@ -1,9 +1,10 @@
 import "reflect-metadata";
 import { DataSource } from 'typeorm';
 import path from 'path';
+import ormconfig from './ormconfig'
 
-const configPath = path.join(__dirname, 'ormconfig.json');
-export const AppDataSource = new DataSource(require(configPath));
+// const configPath = path.join(__dirname, 'ormconfig.ts');
+export const AppDataSource = new DataSource(ormconfig);
 
 export const initializeDatabase = () => {
     return AppDataSource.initialize()

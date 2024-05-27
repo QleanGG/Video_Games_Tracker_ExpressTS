@@ -1,6 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, OneToMany, JoinTable } from "typeorm";
 import { Platform } from "./Platform";
 import { UserGame } from "./UserGame";
+import { Genre } from "./Genre";
 
 @Entity()
 export class Game {
@@ -10,8 +11,9 @@ export class Game {
 	@Column()
 	title: string;
 
-	@Column()
-	genre: string;
+	@ManyToMany(() => Genre, (genre) => genre.games)
+	@JoinTable()
+	genres: Genre[];
 
 	@Column({ nullable: true })
 	description: string;

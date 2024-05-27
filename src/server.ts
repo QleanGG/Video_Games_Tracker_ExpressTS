@@ -4,8 +4,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-
-
 // Starting db and port
 initializeDatabase().then(() => {
     const PORT = process.env.PORT || 3000;
