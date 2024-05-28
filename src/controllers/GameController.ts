@@ -50,4 +50,9 @@ export class GameController {
 			res.status(200).json(result);
 		}
 	}
+
+	async getFeaturedGames(req: Request, res: Response): Promise<void> {
+		const games = await this.gameService.getFeaturedGames();
+		res.json(games);
+	}
 }

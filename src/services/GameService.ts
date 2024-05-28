@@ -9,19 +9,17 @@ export class GameService {
 	private platformRepository = AppDataSource.getRepository(Platform);
 
 	async getAllGames(): Promise<Game[]> {
-		return this.gameRepository.find({ relations: ["platforms"] }); // calling relations to get all the platforms this game hasP
+		return this.gameRepository.find({ relations: ["platforms", "genres"] }); // calling relations to get all the platforms this game hasP
 	}
 
 	async getGame(id: number): Promise<Game | null> {
 		return this.gameRepository.findOne({
 			where: { id },
-			relations: ["platforms"],
+			relations: ["platforms", "genres"],
 		});
 	}
 
-	async createGame(
-		gameData: Partial<Game>
-	): Promise<Game | { message: string }> {
+	async createGame(gameData: Partial<Game>): Promise<Game | { message: string }> {
 		const existingGame = await this.gameRepository.findOne({
 			where: { title: gameData.title },
 		});
@@ -29,9 +27,7 @@ export class GameService {
 			return { message: "This game title already exists." };
 		}
 
-		const platforms = await this.getPlatformsFromNames(
-			gameData.platforms || []
-		);
+		const platforms = await this.getPlatformsFromNames(gameData.platforms || []);
 		const newGame = this.gameRepository.create({
 			...gameData,
 			platforms,
@@ -51,10 +47,7 @@ export class GameService {
 		return { message: `Game ${game.title} with ID ${id} has been deleted` };
 	}
 
-	async updateGame(
-		id: number,
-		gameData: Partial<Game>
-	): Promise<Game | { message: string }> {
+	async updateGame(id: number, gameData: Partial<Game>): Promise<Game | { message: string }> {
 		const game = await this.gameRepository.findOne({ where: { id } });
 		if (!game) {
 			return { message: "Game does not exist." };
@@ -71,11 +64,22 @@ export class GameService {
 	}
 
 	private async getPlatformsFromNames(platforms: Platform[] | string[]): Promise<Platform[]> {
-        const platformNames = platforms.map((p: Platform | string) =>
-            typeof p === 'string' ? p : p.name
-        );
-        return this.platformRepository.find({
-            where: { name: In(platformNames) }
-        });
-    }
+		const platformNames = platforms.map((p: Platform | string) =>
+			typeof p === "string" ? p : p.name
+		);
+		return this.platformRepository.find({
+			where: { name: In(platformNames) },
+		});
+	}
+
+	async getFeaturedGames(): Promise<Game[]> {
+		// Ensure limit is a valid number and handle edge cases
+		return this.gameRepository.find({
+			order: {
+				rating: "DESC", 
+			},
+			relations: ["platforms", "genres"],
+			take:10
+		});
+	}
 }

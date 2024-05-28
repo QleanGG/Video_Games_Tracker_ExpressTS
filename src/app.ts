@@ -29,21 +29,20 @@ if (!REDIS_URL || !REDIS_TOKEN) {
 
 // Middleware
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production' ? [FRONTEND_URL] : '*',
+    origin: process.env.FRONTEND_URL || 'http://localhost:3001',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
 app.use(express.json());
-app.use(jsonErrorHandler);
 
 // security middleware
 app.use(helmet());
 
-const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 100,
-});
-app.use(limiter);
+// const limiter = rateLimit({
+//     windowMs: 15 * 60 * 1000,
+//     max: 100,
+// });
+// app.use(limiter);
 
 // Logger for all incoming requests
 app.use((req, res, next) => {
@@ -66,18 +65,12 @@ app.use(session({
     }
 }));
 
-// app.use((req, res, next) => {
-//     console.log('Session ID:', req.sessionID);
-//     console.log('Session Data:', req.session);
-//     next();
-// });
-
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
-// Serve static files from the 'uploads' directory
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Routers
 app.use('/api', routes);
@@ -86,6 +79,12 @@ app.get('/', (req: Request, res: Response) => {
     res.json("Hello World!");
 });
 
+app.use(jsonErrorHandler);
 app.use(errorHandler);
+
+// Catch-all for unmatched routes
+app.use((req, res, next) => {
+    res.status(404).json({ message: 'Route not found' });
+});
 
 export default app;
