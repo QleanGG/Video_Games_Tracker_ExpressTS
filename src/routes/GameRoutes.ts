@@ -12,7 +12,7 @@ const gameController = new GameController();
 // Get Routes
 router.get('', asyncHandler(gameController.getAllGames.bind(gameController)));
 router.get('/featured', asyncHandler(gameController.getFeaturedGames.bind(gameController)));
-router.get('/:id', asyncHandler(gameController.getGame.bind(gameController)));
+router.get('/:identifier', asyncHandler(gameController.getGameByIdentifier.bind(gameController)));
 
 // Post route
 router.post('',isAuthenticated, checkAdmin, gameValidationRules(), validate, asyncHandler(gameController.createGame.bind(gameController)));

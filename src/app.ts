@@ -21,7 +21,7 @@ const app = express();
 const SECRET_KEY = process.env.SECRET_KEY || 'defaultSecretKey';
 const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || 'redis://localhost:6379';
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
-const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
 
 if (!REDIS_URL || !REDIS_TOKEN) {
     throw new Error("Missing REDIS_URL or REDIS_TOKEN environment variables");
@@ -29,11 +29,12 @@ if (!REDIS_URL || !REDIS_TOKEN) {
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3001',
+    origin: FRONTEND_URL,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
 app.use(express.json());
+app.use(express.urlencoded({extended: true}))
 
 // security middleware
 app.use(helmet());
@@ -71,6 +72,7 @@ app.use(passport.session());
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, '../public')));
+app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // Routers
 app.use('/api', routes);

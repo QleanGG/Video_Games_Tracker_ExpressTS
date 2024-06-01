@@ -1,7 +1,8 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, OneToMany, JoinTable } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, OneToMany, JoinTable, BeforeInsert } from "typeorm";
 import { Platform } from "./Platform";
 import { UserGame } from "./UserGame";
 import { Genre } from "./Genre";
+import { slugify } from "../../utils/slugify";
 
 @Entity()
 export class Game {
@@ -10,6 +11,9 @@ export class Game {
 
 	@Column()
 	title: string;
+
+	@Column({nullable: true})
+	slug: string;
 
 	@ManyToMany(() => Genre, (genre) => genre.games)
 	@JoinTable()
@@ -38,4 +42,9 @@ export class Game {
 
 	@Column({ nullable: true })
     imageUrl: string;
+
+	@BeforeInsert()
+  	setSlug() {
+    	this.slug = slugify(this.title);
+  	}
 }

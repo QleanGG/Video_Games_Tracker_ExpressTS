@@ -1,4 +1,4 @@
-import { In } from "typeorm";
+import { In, Like } from "typeorm";
 import { AppDataSource } from "../database/database";
 import { Game } from "../database/entities/Game";
 import { Platform } from "../database/entities/Platform";
@@ -8,8 +8,23 @@ export class GameService {
 	private gameRepository = AppDataSource.getRepository(Game);
 	private platformRepository = AppDataSource.getRepository(Platform);
 
-	async getAllGames(): Promise<Game[]> {
-		return this.gameRepository.find({ relations: ["platforms", "genres"] }); // calling relations to get all the platforms this game hasP
+	async getAllGames(page: number, limit: number, search: string): Promise<{ data: Game[], total: number, page: number, limit: number }> {
+		const take = limit;
+		const skip = (page - 1) * take;
+
+		const [result, total] = await this.gameRepository.findAndCount({
+			where: { title: Like(`%${search}%`) },
+			relations: ["platforms", "genres"],
+			skip,
+			take,
+		});
+
+		return {
+			data: result,
+			total,
+			page,
+			limit,
+		};
 	}
 
 	async getGame(id: number): Promise<Game | null> {
@@ -76,10 +91,17 @@ export class GameService {
 		// Ensure limit is a valid number and handle edge cases
 		return this.gameRepository.find({
 			order: {
-				rating: "DESC", 
+				rating: "DESC",
 			},
 			relations: ["platforms", "genres"],
-			take:10
+			take: 10,
+		});
+	}
+
+	async getGameBySlug(slug: string): Promise<Game | null> {
+		return this.gameRepository.findOne({
+			where: { slug },
+			relations: ["platforms", "genres"],
 		});
 	}
 }

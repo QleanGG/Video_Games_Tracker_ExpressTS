@@ -14,8 +14,8 @@ router.put(
 	"",
 	isAuthenticated,
 	upload.single("avatar"),
-	profileUpdateValidator,
 	validateRequest,
+	// profileUpdateValidator,
 	asyncHandler(profileController.updateProfile.bind(profileController))
 );
 

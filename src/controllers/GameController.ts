@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { GameService } from "../services/GameService";
 import { Game } from "../database/entities/Game";
+import { log } from "console";
 
 export class GameController {
 	private gameService: GameService;
@@ -10,17 +11,28 @@ export class GameController {
 	}
 
 	async getAllGames(req: Request, res: Response): Promise<void> {
-		const games = await this.gameService.getAllGames();
+		const { page = 1, limit = 12, search = '' } = req.query;
+	
+		const games = await this.gameService.getAllGames(Number(page), Number(limit), String(search));
 		res.json(games);
-	}
+	  }
 
-	async getGame(req: Request, res: Response): Promise<void> {
-		const { id } = req.params;
-		const game = await this.gameService.getGame(Number(id));
+	async getGameByIdentifier(req: Request, res: Response): Promise<void> {
+		const { identifier } = req.params;
+		let game;
+
+		if (isNaN(Number(identifier))) {
+			// identifier is a slug
+			game = await this.gameService.getGameBySlug(identifier);
+		} else {
+			// identifier is an id
+			game = await this.gameService.getGame(Number(identifier));
+		}
+
 		if (game) {
 			res.json(game);
 		} else {
-			res.status(400).json({ message: "Game not found" });
+			res.status(404).json({ message: "Game not found" });
 		}
 	}
 
@@ -55,4 +67,13 @@ export class GameController {
 		const games = await this.gameService.getFeaturedGames();
 		res.json(games);
 	}
+
+	async getGameBySlug(req: Request, res: Response) {
+		const { slug } = req.params;
+		const game = await this.gameService.getGameBySlug(slug);
+		if (!game) {
+		  return res.status(404).json({ message: 'Game not found' });
+		}
+		return res.json(game);
+	  }
 }
