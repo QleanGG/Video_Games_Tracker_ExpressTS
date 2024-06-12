@@ -4,7 +4,7 @@ import { checkAdmin } from '../middleware/checkAdmin';
 import { isAuthenticated } from '../middleware/authMiddleware';
 import { gameValidationRules, validate } from '../validators/gameValidators';
 import asyncHandler from '../utils/asyncHandler';
-import { validateLimitParam } from "../middleware/validateQueryParams";
+// import { validateLimitParam } from "../middleware/validateQueryParams";
 
 const router = Router()
 const gameController = new GameController();
