@@ -39,11 +39,12 @@ app.use(express.urlencoded({extended: true}))
 // security middleware
 app.use(helmet());
 
-// const limiter = rateLimit({
-//     windowMs: 15 * 60 * 1000,
-//     max: 100,
-// });
-// app.use(limiter);
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 100,
+    message: 'Too many requests from this IP, please try again after 15 minutes',
+});
+app.use(limiter);
 
 // Logger for all incoming requests
 app.use((req, res, next) => {
