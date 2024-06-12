@@ -72,13 +72,16 @@ app.use(passport.session());
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, '../public')));
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+app.use('/uploads', (req, res, next) => {
+    res.header('Access-Control-Allow-Origin', FRONTEND_URL); 
+    next();
+  }, express.static(path.join(__dirname, '../uploads')));
 
 // Routers
 app.use('/api', routes);
 
 app.get('/', (req: Request, res: Response) => {
-    res.json("Hello World!");
+    res.json("Server is live");
 });
 
 app.use(jsonErrorHandler);

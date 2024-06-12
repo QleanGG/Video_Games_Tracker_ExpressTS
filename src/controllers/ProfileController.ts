@@ -36,6 +36,10 @@ class ProfileController {
 		const userId = (req.user as any).id;
 		const profileData = req.body;
 
+		if (req.file) {
+            profileData.avatarUrl = `/uploads/${req.file.filename}`;
+        }
+
 		// Parse platforms if they are present
 		if (profileData.platforms) {
 			profileData.platforms = JSON.parse(profileData.platforms);

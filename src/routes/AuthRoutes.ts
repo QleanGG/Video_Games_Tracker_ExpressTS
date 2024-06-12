@@ -2,7 +2,7 @@ import { Router, Request, Response, NextFunction } from "express";
 import passport from '../config/passportConfig';
 import { User } from "../types";
 import { sanitizeUser } from '../utils/sanitizeUser';
-import logger from '../config/logger';  // Import your logger
+import logger from '../config/logger';  
 
 const router = Router();
 
@@ -56,15 +56,21 @@ router.get('/google/callback', (req: Request, res: Response, next: NextFunction)
     })(req, res, next);
 });
 
-// Handle GET requests for logout
-router.get('/logout', (req: Request, res: Response, next: NextFunction) => {
+router.post('/logout', (req: Request, res: Response, next: NextFunction) => {
     req.logout((err) => {
         if (err) {
             logger.error(`Logout error: ${err.message}`);
             return next(err);
         }
-        logger.info(`User logged out: ${req.user?.email}`);
-        res.status(200).json({ message: 'Logout successful' });
+        req.session.destroy((err) => {
+            if (err) {
+                logger.error(`Session destroy error: ${err.message}`);
+                return next(err);
+            }
+            res.clearCookie('connect.sid'); 
+            logger.info(`User logged out: ${req.user?.email}`);
+            res.status(200).json({ message: 'Logout successful' });
+        });
     });
 });
 
@@ -75,7 +81,7 @@ router.get('/user', (req: Request, res: Response) => {
         res.json(req.user);
     } else {
         logger.warn(`Unauthorized access attempt`);
-        res.status(401).json({ message: "Unauthorized" });
+        res.send(null);
     }
 });
 

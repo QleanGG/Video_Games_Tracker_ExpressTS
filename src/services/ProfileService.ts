@@ -61,6 +61,10 @@ export class ProfileService {
 			profile = this.profileRepository.merge(profile, profileData);
 		}
 
+        if (profileData.avatarUrl) {
+            profile.avatarUrl = profileData.avatarUrl;
+        }
+
 		// Handle platforms and mainPlatform separately
 		if (profileData.platforms) {
 			const platformNames = profileData.platforms as unknown as PlatformName[];
