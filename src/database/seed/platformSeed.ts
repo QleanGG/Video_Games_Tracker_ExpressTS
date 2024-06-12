@@ -1,15 +1,15 @@
 import { DataSource } from "typeorm";
-import { Platform } from "../entities/Platform";
+import { Platform, PlatformName } from "../entities/Platform";
 import ormConfig from '../ormconfig';
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
 const dataSource = new DataSource(ormConfig as PostgresConnectionOptions);
 
 const platforms = [
-    {name: "PC"},
-    {name: "PlayStation 5"},
-    {name: "Nintendo Switch"},
-    {name: "Xbox Series X"},
+    { name: PlatformName.PC },
+    { name: PlatformName.PlayStation5 },
+    { name: PlatformName.NintendoSwitch },
+    { name: PlatformName.XboxSeriesX },
 ]
 
 async function seedPlatform() {
