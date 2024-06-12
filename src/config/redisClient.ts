@@ -1,7 +1,7 @@
 import Redis from 'ioredis';
 import dotenv from 'dotenv';
 
-dotenv.config(); // Load environment variables from .env file
+dotenv.config();
 
 const redisUrl = process.env.UPSTASH_REDIS_URL;
 const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN;
