@@ -22,6 +22,7 @@ const SECRET_KEY = process.env.SECRET_KEY || 'defaultSecretKey';
 const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || 'redis://localhost:6379';
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
+const ALLOWED_ORIGINS = [FRONTEND_URL, 'http://localhost:3001'];
 
 if (!REDIS_URL || !REDIS_TOKEN) {
     throw new Error("Missing REDIS_URL or REDIS_TOKEN environment variables");
@@ -29,7 +30,13 @@ if (!REDIS_URL || !REDIS_TOKEN) {
 
 // Middleware
 app.use(cors({
-    origin: FRONTEND_URL,
+    origin: (origin, callback) => {
+        if (!origin || ALLOWED_ORIGINS.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
