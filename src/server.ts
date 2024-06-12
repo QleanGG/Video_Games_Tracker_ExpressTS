@@ -6,7 +6,7 @@ dotenv.config();
 
 // Starting db and port
 initializeDatabase().then(() => {
-    const PORT = process.env.PORT || 3000;
+    const PORT = process.env.SERVER_PORT || 3000;
     app.listen(PORT, () => {
         console.log(`Server running on http://localhost:${PORT}`);
     });
