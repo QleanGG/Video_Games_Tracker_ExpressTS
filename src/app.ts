@@ -22,7 +22,7 @@ const SECRET_KEY = process.env.SECRET_KEY || 'defaultSecretKey';
 const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || 'redis://localhost:6379';
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
-const ALLOWED_ORIGINS = ['http://localhost:3001', 'https://gamevaultproject.vercel.app'];
+const ALLOWED_ORIGINS = [FRONTEND_URL,'https://441b-46-121-35-159.ngrok-free.app', 'http://localhost:3001', 'https://gamevaultproject.vercel.app', 'https://video-games-tracker-next-js-qleanggs-projects.vercel.app', 'video-games-tracker-next-396c7gm3h-qleanggs-projects.vercel.app'];
 
 if (!REDIS_URL || !REDIS_TOKEN) {
     throw new Error("Missing REDIS_URL or REDIS_TOKEN environment variables");
@@ -38,10 +38,17 @@ app.use(cors({
         }
     },
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    credentials: true
+    credentials: true,
+    preflightContinue: true
 }));
 
-app.options('*', cors());
+app.use((req, res, next) => {
+    if (req.method === 'OPTIONS') {
+        res.header('Access-Control-Allow-Private-Network', 'true');
+    }
+    next();
+});
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}))
@@ -71,10 +78,10 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        secure: process.env.NODE_ENV === 'production',
+        // secure: process.env.NODE_ENV === 'development',
         httpOnly: true,
         maxAge: 1000 * 60 * 60 * 2, // 2 hours
-        sameSite:'none'
+        sameSite:'lax'
     }
 }));
 
