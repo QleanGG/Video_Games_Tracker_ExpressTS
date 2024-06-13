@@ -69,7 +69,7 @@ app.use(session({
     saveUninitialized: false,
     cookie: {
         // secure: process.env.NODE_ENV === 'production',
-        httpOnly: true,
+        // httpOnly: true,
         sameSite: 'none',
         maxAge: 1000 * 60 * 60 * 2 // 2 hours
     }
