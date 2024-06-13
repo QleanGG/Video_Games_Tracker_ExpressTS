@@ -23,11 +23,11 @@ const config: DataSourceOptions = {
     subscribers: [
         isProduction ? 'dist/subscriber/**/*.js' : 'src/subscriber/**/*.ts'
     ],
-    extra: {
+    extra: isProduction ? {
         ssl: {
-            rejectUnauthorized: false,
+            rejectUnauthorized: true
         }
-    }
+    } : {}
 };
 
 export default config;

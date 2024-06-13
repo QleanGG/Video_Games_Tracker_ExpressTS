@@ -22,7 +22,7 @@ const SECRET_KEY = process.env.SECRET_KEY || 'defaultSecretKey';
 const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || 'redis://localhost:6379';
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
-const ALLOWED_ORIGINS = [FRONTEND_URL, 'http://localhost:3001'];
+const ALLOWED_ORIGINS = [FRONTEND_URL, 'http://localhost:3001', 'https://gamevaultproject.vercel.app'];
 
 if (!REDIS_URL || !REDIS_TOKEN) {
     throw new Error("Missing REDIS_URL or REDIS_TOKEN environment variables");
