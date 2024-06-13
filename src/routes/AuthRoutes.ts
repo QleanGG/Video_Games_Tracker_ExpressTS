@@ -80,7 +80,6 @@ router.get('/user', (req: Request, res: Response) => {
         logger.info(`Fetched user details: ${req.user?.email}`);
         res.json(req.user);
     } else {
-        console.log(req.headers.cookie)
         logger.warn(`Unauthorized access attempt`);
         res.send(null);
     }
