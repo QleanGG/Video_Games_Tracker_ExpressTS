@@ -81,7 +81,7 @@ router.get('/user', (req: Request, res: Response) => {
         res.json(req.user);
     } else {
         logger.warn(`Unauthorized access attempt`);
-        res.status(403).send(null);
+        res.status(401).send(null);
     }
 });
 
