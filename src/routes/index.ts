@@ -6,6 +6,7 @@ import profileRoutes from './ProfileRoutes';
 import userGameRoutes from './UserGameRoutes'
 import genreRoutes from './GenreRoutes'
 import recommendRoutes from './RecommendRoutes'
+import platformRoutes from './PlatformRoutes'
 const router = Router()
 
 router.use('/games', gameRoutes);
@@ -15,4 +16,5 @@ router.use('/profile', profileRoutes);
 router.use('/user/games', userGameRoutes);
 router.use('/genre',genreRoutes);
 router.use('/recommendation', recommendRoutes);
+router.use('/platform', platformRoutes);
 export default router;
