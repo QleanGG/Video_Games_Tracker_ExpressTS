@@ -23,18 +23,18 @@ const REDIS_URL = process.env.UPSTASH_REDIS_REST_URL || 'redis://localhost:6379'
 const REDIS_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
 const API_URL = 'https://api.gamevault.live';
-const ALLOWED_ORIGINS = [FRONTEND_URL, API_URL, 'https://www.gamevault.live'];
+const VERCEL_DEPLOYMENT_URL = 'https://video-games-tracker-next-lszolnfcz-qleanggs-projects.vercel.app';
+const ALLOWED_ORIGINS = [FRONTEND_URL, API_URL, 'https://www.gamevault.live', VERCEL_DEPLOYMENT_URL];
 
 if (!REDIS_URL || !REDIS_TOKEN) {
     throw new Error("Missing REDIS_URL or REDIS_TOKEN environment variables");
 }
 
-app.set('trust proxy', 1);
 // Middleware
 app.use(cors({
     origin: (origin, callback) => {
         if (!origin || ALLOWED_ORIGINS.includes(origin)) {
-            callback(null, true);
+            callback(null, origin);
         } else {
             callback(new Error('Not allowed by CORS'));
         }
@@ -72,7 +72,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        secure: true,
+        secure: process.env.NODE_ENV === 'production',
         httpOnly: true,
         maxAge: 1000 * 60 * 60 * 2, // 2 hours
         sameSite: 'lax',
