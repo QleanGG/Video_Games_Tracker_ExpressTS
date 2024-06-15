@@ -16,5 +16,5 @@ router.use('/profile', profileRoutes);
 router.use('/user/games', userGameRoutes);
 router.use('/genre',genreRoutes);
 router.use('/recommendation', recommendRoutes);
-router.use('/platform', platformRoutes);
+router.use('/platforms', platformRoutes);
 export default router;

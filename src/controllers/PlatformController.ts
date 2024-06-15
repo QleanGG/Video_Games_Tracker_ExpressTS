@@ -14,13 +14,25 @@ export class PlatformController {
         res.json(platforms);
     }
 
-    async getGamesByPlatform(req: Request, res: Response): Promise<void> {
-        const { platformId } = req.params;
-        const { page = 1, limit = 12 } = req.query;
+    // async getGamesByPlatform(req: Request, res: Response): Promise<void> {
+    //     const { platformId } = req.params;
+    //     const { page = 1, limit = 12 } = req.query;
 
-        const games = await this.platformService.getGamesByPlatform(Number(platformId), Number(page), Number(limit));
+    //     const games = await this.platformService.getGamesByPlatform(Number(platformId), Number(page), Number(limit));
+    //     res.json(games);
+    // }
+
+    async getGamesByPlatformName(req: Request, res: Response): Promise<void> {
+        const { platformName } = req.params;
+        const { page = 1, limit = 10 } = req.query;
+    
+        const games = await this.platformService.getGamesByPlatformName(
+          platformName,
+          Number(page),
+          Number(limit)
+        );
         res.json(games);
-    }
+      }    
 
     async createPlatform(req: Request, res: Response): Promise<void> {
         const platformData = req.body;

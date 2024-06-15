@@ -9,7 +9,9 @@ const platformController = new PlatformController();
 
 // Get Routes
 router.get('', asyncHandler(platformController.getAllPlatforms.bind(platformController)));
-router.get('/:platformId/games', asyncHandler(platformController.getGamesByPlatform.bind(platformController)));
+// router.get('/:platformId/games', asyncHandler(platformController.getGamesByPlatform.bind(platformController)));
+router.get("/:platformName/games", asyncHandler(platformController.getGamesByPlatformName.bind(platformController)));
+
 
 // Post route
 router.post('', isAuthenticated, checkAdmin, asyncHandler(platformController.createPlatform.bind(platformController)));
