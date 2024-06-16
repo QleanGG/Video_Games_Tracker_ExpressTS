@@ -11,9 +11,9 @@ export class GameController {
 	}
 
 	async getAllGames(req: Request, res: Response): Promise<void> {
-		const { page = 1, limit = 12, search = '' } = req.query;
+		const { page = 1, limit = 12, search = '', genre='' } = req.query;
 	
-		const games = await this.gameService.getAllGames(Number(page), Number(limit), String(search));
+		const games = await this.gameService.getAllGames(Number(page), Number(limit), String(search), String(genre));
 		res.json(games);
 	  }
 

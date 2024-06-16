@@ -2,23 +2,39 @@ import { In, Like } from "typeorm";
 import { AppDataSource } from "../database/database";
 import { Game } from "../database/entities/Game";
 import { Platform } from "../database/entities/Platform";
+import { Genre } from "../database/entities/Genre";
 
 export class GameService {
-	// Obtain the repository for the Game entity
 	private gameRepository = AppDataSource.getRepository(Game);
 	private platformRepository = AppDataSource.getRepository(Platform);
+	private genreRepository = AppDataSource.getRepository(Genre);
 
-	async getAllGames(page: number, limit: number, search: string): Promise<{ data: Game[], total: number, page: number, limit: number }> {
+	async getAllGames(
+		page: number,
+		limit: number,
+		search: string,
+		genre: string
+	): Promise<{ data: Game[]; total: number; page: number; limit: number }> {
 		const take = limit;
 		const skip = (page - 1) * take;
 
-		const [result, total] = await this.gameRepository.findAndCount({
-			where: { title: Like(`%${search}%`) },
-			relations: ["platforms", "genres"],
-			skip,
-			take,
-		});
+		const query = this.gameRepository
+			.createQueryBuilder("game")
+			.leftJoinAndSelect("game.platforms", "platform")
+			.leftJoinAndSelect("game.genres", "genre")
+			.skip(skip)
+			.take(take);
 
+		if (search) {
+			console.log(search);
+			query.andWhere("LOWER(game.title) LIKE LOWER(:search)", { search: `%${search}%` });
+		}
+
+		if (genre) {
+			query.andWhere("genre.name = :genre", { genre });
+		}
+
+		const [result, total] = await query.getManyAndCount();
 		return {
 			data: result,
 			total,
