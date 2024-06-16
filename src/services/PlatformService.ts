@@ -38,7 +38,9 @@ export class PlatformService {
 	async getGamesByPlatformName(
 		platformName: string,
 		page: number,
-		limit: number
+		limit: number,
+		search: string = "",
+		genre: string = ""
 	): Promise<{ data: Game[]; total: number; page: number; limit: number }> {
 		const take = limit;
 		const skip = (page - 1) * take;
@@ -48,19 +50,31 @@ export class PlatformService {
 			return { data: [], total: 0, page, limit };
 		}
 
-		const platform = await this.platformRepository.findOne({ where: { name: normalizedPlatformName } });
+		const platform = await this.platformRepository.findOne({
+			where: { name: normalizedPlatformName },
+		});
 
 		if (!platform) {
 			return { data: [], total: 0, page, limit };
 		}
 
-		const [result, total] = await this.gameRepository.findAndCount({
-			where: { platforms: { id: platform.id } },
-			relations: ["platforms", "genres"],
-			skip,
-			take,
-		});
+		const query = this.gameRepository
+			.createQueryBuilder("game")
+			.leftJoinAndSelect("game.platforms", "platform")
+			.leftJoinAndSelect("game.genres", "genre")
+			.where("platform.id = :platformId", { platformId: platform.id })
+			.skip(skip)
+			.take(take);
 
+		if (search) {
+			query.andWhere("LOWER(game.title) LIKE LOWER(:search)", { search: `%${search}%` });
+		}
+
+		if (genre) {;
+			query.andWhere("genre.name = :genre", { genre });
+		}
+		
+		const [result, total] = await query.getManyAndCount();
 		return {
 			data: result,
 			total,
