@@ -25,8 +25,7 @@ export class GameService {
 			.skip(skip)
 			.take(take);
 
-		if (search) {
-			console.log(search);
+		if (search) {;
 			query.andWhere("LOWER(game.title) LIKE LOWER(:search)", { search: `%${search}%` });
 		}
 
