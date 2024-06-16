@@ -6,11 +6,11 @@ export const userGameValidationRules = () => {
             .isIn(['Interested', 'Own', 'Currently Playing', 'On Hold', 'Dropped', 'Finished', 'Completed'])
             .withMessage('Invalid game status'),
         check('rating')
-            .optional()
+            .optional({ checkFalsy: true })
             .isFloat({ min: 1, max: 10 })
             .withMessage('Rating must be a number between 1 and 10'),
         check('review')
-            .optional()
+            .optional({ checkFalsy: true })
             .isString()
             .withMessage('Review must be a string')
     ];
