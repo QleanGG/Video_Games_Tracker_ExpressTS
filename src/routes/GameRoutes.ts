@@ -11,7 +11,11 @@ const gameController = new GameController();
 
 // Get Routes
 router.get('', asyncHandler(gameController.getAllGames.bind(gameController)));
+
+// featured games route
 router.get('/featured', asyncHandler(gameController.getFeaturedGames.bind(gameController)));
+
+// Get by name
 router.get('/:identifier', asyncHandler(gameController.getGameByIdentifier.bind(gameController)));
 
 // Post route
@@ -22,7 +26,5 @@ router.delete('/:id',isAuthenticated, checkAdmin, asyncHandler(gameController.de
 
 // Update Route
 router.put('/:id', isAuthenticated, checkAdmin, gameValidationRules(), validate, asyncHandler(gameController.updateGame.bind(gameController)));
-
-// featured games route
 
 export default router;

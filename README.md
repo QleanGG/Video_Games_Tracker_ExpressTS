@@ -15,6 +15,7 @@ This is the backend API for the GameVault application, a video game tracker app 
 - [Error Handling](#error-handling)
 - [Logging](#logging)
 - [Security](#security)
+- [Session Management](#session-management)
 
 ## Features
 
@@ -53,12 +54,22 @@ This is the backend API for the GameVault application, a video game tracker app 
    Create a `.env` file in the root directory and add the following environment variables:
 
    ```env
+   DB_HOST=
+   DB_PORT=5432
+   DB_USERNAME=
+   DB_PASSWORD=
+   DB_DATABASE=gamevault
+   SECRET_KEY=
+   GOOGLE_CLIENT_ID=
+   GOOGLE_CLIENT_SECRET=
+   UPSTASH_REDIS_REST_URL=
+   UPSTASH_REDIS_REST_TOKEN=
+   UPSTASH_REDIS_URL=
    NODE_ENV=development
-   PORT=3000
-   DATABASE_URL=postgres://username:password@localhost:5432/gamevault_db
-   SECRET_KEY=your_secret_key
-   UPSTASH_REDIS_REST_URL=your_redis_url
-   UPSTASH_REDIS_REST_TOKEN=your_redis_token
+   TYPEORM_SYNC=
+   FRONTEND_URL=
+   SERVER_PORT=3000
+   VERCEL_DEPLOYMENT_URL=
    ```
 
 ## Environment Variables
@@ -110,6 +121,24 @@ This is the backend API for the GameVault application, a video game tracker app 
   - `GET /api/profile`: Get the user's profile
   - `PUT /api/profile`: Update the user's profile
 
+- **Genres**
+
+ - `GET /api/genre`: Get all genres
+ - `GET /api/genre/`:id: Get a genre by ID
+ - `POST /api/genre`: Create a new genre (admin only)
+ - `PUT /api/genre/:id`: Update a genre by ID (admin only)
+ - `DELETE /api/genre/:id`: Delete a genre by ID (admin only)
+
+- **Recommendations**
+ - `GET /api/recommendation/:userId`: Get recommendations for a user
+
+- **Platforms**
+ - `GET /api/platforms`: Get all platforms
+ - `GET /api/platforms/:platformName/games`: Get games by platform name
+ - `POST /api/platforms`: Create a new platform (admin only)
+ - `PUT /api/platforms/:id`: Update a platform by ID (admin only)
+ - `DELETE /api/platforms/:id`: Delete a platform by ID (admin only)
+
 ## Testing
 
 Run the tests using the following command:
@@ -130,6 +159,17 @@ Winston is used for logging. Logs are saved to `error.log` and `combined.log` fi
 - Helmet is used to set security-related HTTP headers.
 - Rate limiting is implemented to prevent abuse.
 - CORS is configured to allow requests only from the frontend URL in production.
+
+## Session Management
+
+Session management is handled using Redis and `connect-redis` for storing session data. Sessions are configured in `app.js` with the following settings:
+
+- Sessions are stored with a prefix of `sess:`.
+- Sessions are set to expire after 2 hours.
+- Session cookies are configured to be HTTP-only for security purposes.
+- Redis credentials are required and must be set in the environment variables.
+
+This setup helps in maintaining user sessions efficiently and securely.
 
 ## License
 
