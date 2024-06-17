@@ -31,6 +31,8 @@ if (!REDIS_URL || !REDIS_TOKEN) {
 }
 
 // Middleware
+
+app.set('trust proxy', 1)
 app.use(cors({
     origin: (origin, callback) => {
         if (!origin || ALLOWED_ORIGINS.includes(origin)) {
@@ -52,7 +54,7 @@ app.use(helmet());
 
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 150,
+    max: 100,
     message: 'Too many requests from this IP, please try again after 15 minutes',
 });
 app.use(limiter);
@@ -75,6 +77,7 @@ app.use(session({
         // secure: process.env.NODE_ENV === 'production',
         httpOnly: true,
         maxAge: 1000 * 60 * 60 * 2, // 2 hours
+        sameSite: 'lax',
     }
 }));
 
